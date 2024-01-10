@@ -27,7 +27,7 @@
           }
         ],
         "soil":{
-          "item":"minecraft:dirt"
+          "item":"farmersdelight:rich_soil"
         },
         "time":320
       }
