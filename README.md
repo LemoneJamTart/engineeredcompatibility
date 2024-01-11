@@ -8,6 +8,10 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
   
   
 ### 1.20.1 Additional Supported Mods:
+ - Aether:
+     - Adds Skyroot woodset to the Sawmill
+     - Adds Ambrosium Shard and Zanite Gemstone to the Crusher
+     - Adds Blue Berry to the Fementer
  - Blue Skies:
      - Adds Bluebright, Starlit, Frostbright, Comet, Lunar, Maple, Dusk, and Crystallized woodsets to the Sawmill
      - Adds Midnight and Crystal sandstone crushing to the Crusher
@@ -20,6 +24,10 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Adds Biodiesel, Sulfurized Diesel, Diesel, Kerosene, Naphtha, Benzene, and Gasoline as fuels for the Liquid Burner
      - Adds Napalm as a superheat fuel for the Liquid Burner
      - Burn times range from ~11000t for a bucket of low-quality fuels to ~25000t for a bucket of napalm
+ - Deep Aether:
+     - Adds Conberry, Cruderoot, Roseroot, Yagroot, and Sunroot woodsets to the Sawmill
+     - Adds Skyjade to the Crusher
+     - Adds Goldenleaf Berries to the Fermenter
  - Deeper & Darker:
      - Adds Echo woodset to the Sawmill 
     Eidolon:
@@ -30,11 +38,15 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Adds Arcane Bone Meal to the Cloche
  - Miner's Delight
      - Adds Cave Carrot to the Cloche
+ - Nature's Aura
+     - Adds Ancient woodset to the sawmill
  - Nether's Delight:
      - Adds Rich Soul Soil compat to basegame recipes in the Cloche
  - Pam's Harvestcraft:
      - Adds crops to the Cloche, courtesy of [RosaryMala](https://github.com/RosaryMala)
      - Adds crops to the Fermenter, courtesy of [RosaryMala](https://github.com/RosaryMala)
+ - Twilight Forest:
+    - Adds Twilight Oak, Timewood, Sortingwood, Transwood, Darkwood, Canopy, Mangrove, and Minewood woodsets to the Sawmill
  - Undergarden:
      - Adds Wigglewood, Smogstem, and Grongle woodsets to the Sawmill
      - Adds Underbeans, Gloomgourd, and Blisterberry to the Cloche
