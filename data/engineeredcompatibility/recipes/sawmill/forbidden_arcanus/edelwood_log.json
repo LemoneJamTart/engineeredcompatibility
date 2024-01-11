@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "forbidden_arcanus"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 1600,
+        "input": [
+          {
+            "item": "forbidden_arcanus:edelwood_log"
+          }
+        ],
+        "result": {
+          "count": 3,
+          "item": "forbidden_arcanus:edelwood_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          }
+        ]
+      }
+    }
+  ]
+}
