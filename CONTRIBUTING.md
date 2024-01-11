@@ -15,7 +15,7 @@ That's great! Please identify the file name that is in error from your log or th
  6. Submit the issue
 
 ## Did you find a missing compat for a mod Engineered Compatibility adds compat for?
-That's great! Please first check the below list of features that cannot be implemented at the moment, and then treat it as a bug as above.
+That's great! Please first check the below list of features that cannot be implemented, and then treat it as a bug as above.
 
 **List of features whose compat cannot/will not be added:**
  - Aether and Deep Aether berries in the Cloche:
@@ -33,7 +33,7 @@ That's great! Please first check the below list of features that cannot be imple
      - This works fine for Undergarden (mostly) but could be considered a bug in Undergarden
 
 ## Do you have a mod you want Engineered Compatibility to add compat for?
-That's great! Please first check that the mod is not on the list below of mods that denigrate the IE experience too much for me to add compat to.    
+That's great! Please first check that the mod is not on the list below of mods that denigrate the IE experience.
 
 **Mods for which compat will not be added:**
  - Thermal Expansion, Integration, or any else of the Thermal [x] series
