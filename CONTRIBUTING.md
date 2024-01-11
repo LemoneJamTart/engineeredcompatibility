@@ -14,7 +14,7 @@ That's great! Please identify the file name that is in error from your log or th
  5. Describe the bug in full in the issue body
  6. Submit the issue
 
-## Did you find a missing compat for an existing mod Engineered Compatibility adds compat for?
+## Did you find a missing compat for a mod Engineered Compatibility adds compat for?
 That's great! Please first check the below list of features that cannot be implemented at the moment, and then treat it as a bug as above.
 
 **List of features whose compat cannot/will not be added:**
