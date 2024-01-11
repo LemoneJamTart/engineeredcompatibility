@@ -1,0 +1,46 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "deep_aether"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 1600,
+        "input": [
+          {
+            "item": "deep_aether:yagroot_log"
+          },
+          {
+            "item": "deep_aether:yagroot_wood"
+          }
+        ],
+        "result": {
+          "count": 6,
+          "item": "deep_aether:yagroot_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": true
+          },
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          }
+        ],
+        "stripped": {
+          "item": "deep_aether:stripped_yagroot_log"
+        }
+      }
+    }
+  ]
+}

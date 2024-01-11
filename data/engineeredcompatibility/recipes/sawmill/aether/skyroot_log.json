@@ -1,0 +1,46 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "aether"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 1600,
+        "input": [
+          {
+            "item": "aether:skyroot_log"
+          },
+          {
+            "item": "aether:skyroot_wood"
+          }
+        ],
+        "result": {
+          "count": 6,
+          "item": "aether:skyroot_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": true
+          },
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          }
+        ],
+        "stripped": {
+          "item": "aether:stripped_skyroot_log"
+        }
+      }
+    }
+  ]
+}

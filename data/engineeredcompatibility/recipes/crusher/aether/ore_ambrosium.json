@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ores/ambrosium"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:gems/ambrosium"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:crusher",
+        "energy": 6000,
+        "input": {
+          "tag": "forge:ores/ambrosium"
+        },
+        "result": {
+          "base_ingredient": {
+            "tag": "forge:gems/ambrosium"
+          },
+          "count": 4
+        },
+        "secondaries": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "aether"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "aether"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 1600,
+        "input": {
+          "item": "aether:skyroot_bookshelf"
+        },
+        "result": {
+          "count": 4,
+          "item": "aether:skyroot_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          },
+          {
+            "output": {
+              "count": 3,
+              "item": "minecraft:book"
+            },
+            "stripping": false
+          }
+        ]
+      }
+    }
+  ]
+}

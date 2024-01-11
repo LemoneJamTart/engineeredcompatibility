@@ -1,0 +1,24 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "aether"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:fermenter",
+        "energy": 6400,
+        "fluid": {
+          "amount": 60,
+          "fluid": "immersiveengineering:ethanol"
+        },
+        "input": {
+          "item": "aether:blue_berry"
+        }
+      }
+    }
+  ]
+}

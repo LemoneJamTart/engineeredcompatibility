@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ores/skyjade"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:gems/skyjade"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:crusher",
+        "energy": 6000,
+        "input": {
+          "tag": "forge:ores/skyjade"
+        },
+        "result": {
+          "base_ingredient": {
+            "tag": "forge:gems/skyjade"
+          },
+          "count": 2
+        },
+        "secondaries": []
+      }
+    }
+  ]
+}
