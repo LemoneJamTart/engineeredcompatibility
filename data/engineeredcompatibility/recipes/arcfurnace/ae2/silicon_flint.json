@@ -1,0 +1,42 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:silicon"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:arc_furnace",
+        "additives": [
+          {
+            "base_ingredient": {
+              "tag": "forge:dusts/coal_coke"
+            },
+            "count": 1
+          }        
+        ],
+        "energy": 204800,
+        "input": {
+          "item": "minecraft:flint"
+        },
+        "results": [
+          {
+            "base_ingredient": {
+              "tag": "forge:silicon"
+            }
+          }
+        ],
+        "slag": {
+          "tag": "forge:slag"
+        },
+        "time": 400
+      }
+    }
+  ]
+}
