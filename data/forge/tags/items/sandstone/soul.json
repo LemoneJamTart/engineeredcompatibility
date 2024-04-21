@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "quark:soul_sandstone",
+      "required": false
+    },
+    {
+      "id": "quark:cut_soul_sandstone",
+      "required": false
+    },
+    {
+      "id": "quark:chisled_soul_sandstone",
+      "required": false
+    },
+    {
+      "id": "quark:polished_soul_sandstone",
+      "required": false
+    },
+    {
+      "id": "quark:soul_sandstone_bricks",
+      "required": false
+    }
+  ]
+}
