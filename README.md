@@ -8,13 +8,18 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
   
   
 ### 1.20.1 Additional Supported Mods:
+ - Applied Energistics 2:
+     - Adds smelting of sand and flint into silicon to the Arc Furnace
  - Aether:
      - Adds Skyroot woodset to the Sawmill
      - Adds Ambrosium Shard and Zanite Gemstone to the Crusher
-     - Adds Blue Berry to the Fementer
+     - Adds Blue Berry and Enchanted Berry to the Fementer
  - Blue Skies:
      - Adds Bluebright, Starlit, Frostbright, Comet, Lunar, Maple, Dusk, and Crystallized woodsets to the Sawmill
      - Adds Midnight and Crystal sandstone crushing to the Crusher
+     - Adds Crescent Fruit to the Fermenter
+     - Adds Pyrope, Moonstone, Diopside, Charoite, and Aquite to the Crusher
+     - Adds Ventium, Horizonite, and Falsite smelting to the Arc Furnace
  - Botania:
      - Adds Mystical Flowers to the Cloche, courtesy of [RosaryMala](https://github.com/RosaryMala)
      - Adds Livingwood and Dreamwood woodsets to the Sawmill
@@ -30,8 +35,12 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Adds Goldenleaf Berries to the Fermenter
  - Deeper & Darker:
      - Adds Echo woodset to the Sawmill 
-    Eidolon:
-     - Adds Illwood woodset to the Sawmill 
+ - Eidolon:
+     - Adds Illwood woodset to the Sawmill
+ - ElementalCraft:
+     - Adds Springaline processing to the Crusher
+     - Adds Inert Crystal crushing to the Crusher
+     - Adds a Springaline Glass recipe that uses lead wires
  - Forbidden & Arcanus:
      - Adds Aurum, Fungyss, and Edelwood woodsets to the Sawmill
      - Adds Soulless Sandstone and Arcane Crystal crushing to the Crusher
@@ -42,14 +51,23 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Adds Ancient woodset to the sawmill
  - Nether's Delight:
      - Adds Rich Soul Soil compat to basegame recipes in the Cloche
+ - Occultism:
+     - Adds Iesnium smelting to the Arc Furnace
  - Pam's Harvestcraft:
      - Adds crops to the Cloche, courtesy of [RosaryMala](https://github.com/RosaryMala)
      - Adds crops to the Fermenter, courtesy of [RosaryMala](https://github.com/RosaryMala)
+ - Quark:
+     - Adds Soul Sandstone crushing to the Crusher
+     - Adds a lead recipe for Framed Glass
+ - Supplementaries:
+     - Adds Flax Seeds to the Squeezer
  - Twilight Forest:
-    - Adds Twilight Oak, Timewood, Sortingwood, Transwood, Darkwood, Canopy, Mangrove, and Minewood woodsets to the Sawmill
+     - Adds Twilight Oak, Timewood, Sortingwood, Transwood, Darkwood, Canopy, Mangrove, and Minewood woodsets to the Sawmill
  - Undergarden:
      - Adds Wigglewood, Smogstem, and Grongle woodsets to the Sawmill
      - Adds Underbeans, Gloomgourd, and Blisterberry to the Cloche
+     - Adds Cloggrum and Froststeel smelting to the Arc Furnace
+     - Adds Regalium and Utherium crushing to the Crusher
   
   
 ### 1.19.2 Supported Mods:
