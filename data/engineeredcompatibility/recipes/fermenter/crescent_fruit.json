@@ -1,0 +1,24 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "blue_skies"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:fermenter",
+        "energy": 6400,
+        "fluid": {
+          "amount": 80,
+          "fluid": "immersiveengineering:ethanol"
+        },
+        "input": {
+          "item": "blue_skies:crescent_fruit"
+        }
+      }
+    }
+  ]
+}
