@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ores/inert_crystal"
+          }
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "elementalcraft"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:crusher",
+        "energy": 6000,
+        "input": {
+          "tag": "forge:ores/inert_crystal"
+        },
+        "result": {
+          "base_ingredient": {
+            "item": "elementalcraft:inert_crystal"
+          },
+          "count": 2
+        },
+        "secondaries": []
+      }
+    }
+  ]
+}
