@@ -1,0 +1,27 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:seeds/flax"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:squeezer",
+        "energy": 6400,
+        "fluid": {
+          "amount": 100,
+          "fluid": "immersiveengineering:plantoil"
+        },
+        "input": {
+          "tag": "forge:seeds/flax"
+        }
+      }
+    }
+  ]
+}
