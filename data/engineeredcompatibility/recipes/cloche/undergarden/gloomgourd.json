@@ -19,11 +19,11 @@
         },
         "results": [
           {
-            "item": "undergarden:deepsoil"
+            "item": "undergarden:gloomgourd"
           }
         ],
         "soil": {
-          "item": "undergarden:dirt"
+          "item": "undergarden:deepsoil"
         },
         "time": 800
       }
