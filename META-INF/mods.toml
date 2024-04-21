@@ -57,9 +57,3 @@ Engineered Compatibility: A datapack-mod adding compatibility between other mods
     versionRange="[1.20.1,1.20.2)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.engineeredcompatibility]]
-    modId="botania"
-    mandatory=true
-    versionRange="[0,)"
-    ordering="AFTER"
-    side="BOTH"
