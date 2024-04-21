@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ores/ventium"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:arc_furnace",
+        "additives": [],
+        "energy": 102400,
+        "input": {
+          "tag": "forge:ores/ventium"
+        },
+        "results": [
+          {
+            "base_ingredient": {
+              "tag": "forge:ingots/ventium"
+            },
+            "count": 2
+          }
+        ],
+        "slag": {
+          "tag": "forge:slag"
+        },
+        "time": 200
+      }
+    }
+  ]
+}

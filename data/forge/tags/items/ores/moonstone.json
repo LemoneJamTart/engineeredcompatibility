@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "blue_skies:everbright_moonstone_ore",
+      "required": false
+    },
+    {
+      "id": "blue_skies:everdawn_moonstone_ore",
+      "required": false
+    }
+  ]
+}

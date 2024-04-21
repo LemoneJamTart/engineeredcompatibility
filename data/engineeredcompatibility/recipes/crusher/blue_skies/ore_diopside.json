@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ores/diopside"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:gems/diopside"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:crusher",
+        "energy": 6000,
+        "input": {
+          "tag": "forge:ores/diopside"
+        },
+        "result": {
+          "base_ingredient": {
+            "tag": "forge:gems/diopside"
+          },
+          "count": 2
+        },
+        "secondaries": []
+      }
+    }
+  ]
+}

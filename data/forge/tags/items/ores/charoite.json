@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "blue_skies:everbright_charoite_ore",
+      "required": false
+    },
+    {
+      "id": "blue_skies:everdawn_charoite_ore",
+      "required": false
+    }
+  ]
+}

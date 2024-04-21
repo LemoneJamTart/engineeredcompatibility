@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ores/charoite"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:gems/charoite"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:crusher",
+        "energy": 6000,
+        "input": {
+          "tag": "forge:ores/charoite"
+        },
+        "result": {
+          "base_ingredient": {
+            "tag": "forge:gems/charoite"
+          },
+          "count": 2
+        },
+        "secondaries": []
+      }
+    }
+  ]
+}

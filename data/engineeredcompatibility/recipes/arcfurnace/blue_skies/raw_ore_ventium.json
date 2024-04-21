@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:raw_materials/ventium"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:arc_furnace",
+        "additives": [],
+        "energy": 25600,
+        "input": {
+          "tag": "forge:raw_materials/ventium"
+        },
+        "results": [
+          {
+            "tag": "forge:ingots/ventium"
+          }
+        ],
+        "secondaries": [
+          {
+            "chance": 0.5,
+            "output": {
+              "tag": "forge:ingots/ventium"
+            }
+          }
+        ],
+        "time": 100
+      }
+    }
+  ]
+}
