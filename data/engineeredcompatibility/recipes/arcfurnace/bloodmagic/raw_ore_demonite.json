@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:raw_materials/hellforged"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:arc_furnace",
+        "additives": [],
+        "energy": 25600,
+        "input": {
+          "tag": "forge:raw_materials/hellforged"
+        },
+        "results": [
+          {
+            "tag": "forge:ingots/hellforged"
+          }
+        ],
+        "secondaries": [
+          {
+            "chance": 0.5,
+            "output": {
+              "tag": "forge:ingots/hellforged"
+            }
+          }
+        ],
+        "time": 100
+      }
+    }
+  ]
+}
