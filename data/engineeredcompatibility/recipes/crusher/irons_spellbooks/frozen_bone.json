@@ -1,0 +1,25 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "irons_spellbooks"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:crusher",
+        "energy": 1600,
+        "input": {
+          "item": "irons_spellbooks:frozen_bone"
+        },
+        "result": {
+          "count": 6,
+          "item": "minecraft:bone_meal"
+        },
+        "secondaries": []
+      }
+    }
+  ]
+}
