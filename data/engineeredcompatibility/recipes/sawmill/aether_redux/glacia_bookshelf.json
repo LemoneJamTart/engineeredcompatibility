@@ -1,0 +1,40 @@
+
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "aether_redux"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 1600,
+        "input": {
+          "item": "aether_redux:glacia_bookshelf"
+        },
+        "result": {
+          "count": 4,
+          "item": "aether_redux:glacia_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          },
+          {
+            "output": {
+              "count": 3,
+              "item": "minecraft:book"
+            },
+            "stripping": false
+          }
+        ]
+      }
+    }
+  ]
+}

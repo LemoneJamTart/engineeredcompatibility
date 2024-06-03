@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ores/veridium"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:arc_furnace",
+        "additives": [],
+        "energy": 102400,
+        "input": {
+          "tag": "forge:ores/veridium"
+        },
+        "results": [
+          {
+            "base_ingredient": {
+              "tag": "forge:ingots/veridium"
+            },
+            "count": 2
+          }
+        ],
+        "slag": {
+          "tag": "forge:slag"
+        },
+        "time": 200
+      }
+    }
+  ]
+}

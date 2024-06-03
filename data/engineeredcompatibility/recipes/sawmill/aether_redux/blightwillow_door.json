@@ -1,0 +1,31 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "aether_redux"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 800,
+        "input": {
+          "item": "aether_redux:blightwillow_door"
+        },
+        "result": {
+          "item": "aether_redux:blightwillow_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          }
+        ]
+      }
+    }
+  ]
+}

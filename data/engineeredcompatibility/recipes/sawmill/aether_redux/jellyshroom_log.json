@@ -1,0 +1,43 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "aether_redux"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 1600,
+        "input": [
+          {
+            "item": "aether_redux:jellyshroom_stem"
+          },
+          {
+            "item": "aether_redux:jellyshroom_hyphae"
+          }
+        ],
+        "result": {
+          "count": 6,
+          "item": "aether_redux:jellyshroom_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": true
+          },
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          }
+        ]
+      }
+    }
+  ]
+}

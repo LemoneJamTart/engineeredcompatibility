@@ -1,0 +1,46 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "aether_redux"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 1600,
+        "input": [
+          {
+            "item": "aether_redux:crystal_log"
+          },
+          {
+            "item": "aether_redux:crystal_wood"
+          }
+        ],
+        "result": {
+          "count": 6,
+          "item": "aether_redux:crystal_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": true
+          },
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          }
+        ],
+        "stripped": {
+          "item": "aether_redux:stripped_crystal_log"
+        }
+      }
+    }
+  ]
+}
