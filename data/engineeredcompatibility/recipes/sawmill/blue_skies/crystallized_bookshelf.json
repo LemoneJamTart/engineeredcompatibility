@@ -1,0 +1,47 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "blue_skies"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "everycomp"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "quark"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 1600,
+        "input": {
+          "item": "everycomp:q/blue_skies/crystallized_bookshelf"
+        },
+        "result": {
+          "count": 4,
+          "item": "blue_skies:crystallized_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          },
+          {
+            "output": {
+              "count": 3,
+              "item": "minecraft:book"
+            },
+            "stripping": false
+          }
+        ]
+      }
+    }
+  ]
+}
