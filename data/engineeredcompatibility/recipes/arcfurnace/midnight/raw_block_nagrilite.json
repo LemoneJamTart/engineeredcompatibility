@@ -1,0 +1,41 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:storage_blocks/raw_nagrilite"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:arc_furnace",
+        "additives": [],
+        "energy": 230400,
+        "input": {
+          "tag": "forge:storage_blocks/raw_nagrilite"
+        },
+        "results": [
+          {
+            "base_ingredient": {
+              "tag": "forge:ingots/nagrilite"
+            },
+            "count": 13
+          }
+        ],
+        "secondaries": [
+          {
+            "chance": 0.5,
+            "output": {
+              "tag": "forge:ingots/nagrilite"
+            }
+          }
+        ],
+        "time": 900
+      }
+    }
+  ]
+}
