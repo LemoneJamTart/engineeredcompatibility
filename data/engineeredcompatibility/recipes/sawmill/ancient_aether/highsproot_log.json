@@ -1,0 +1,46 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ancient_aether"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:sawmill",
+        "energy": 1600,
+        "input": [
+          {
+            "item": "ancient_aether:highsproot_log"
+          },
+          {
+            "item": "ancient_aether:highsproot_wood"
+          }
+        ],
+        "result": {
+          "count": 6,
+          "item": "ancient_aether:highsproot_planks"
+        },
+        "secondaries": [
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": true
+          },
+          {
+            "output": {
+              "tag": "forge:dusts/wood"
+            },
+            "stripping": false
+          }
+        ],
+        "stripped": {
+          "item": "ancient_aether:stripped_highsproot_log"
+        }
+      }
+    }
+  ]
+}
