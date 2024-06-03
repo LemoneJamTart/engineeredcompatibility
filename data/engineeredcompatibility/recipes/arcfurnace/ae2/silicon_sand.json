@@ -24,7 +24,7 @@
         "energy": 204800,
         "input": {
           "base_ingredient": {
-            "tag": "minecraft:sand"
+            "tag": "forge:sand"
           },
           "count": 2
         },
