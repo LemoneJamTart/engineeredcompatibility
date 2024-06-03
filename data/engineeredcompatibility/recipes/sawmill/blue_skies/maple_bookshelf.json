@@ -7,10 +7,6 @@
         {
           "type": "forge:mod_loaded",
           "modid": "blue_skies"
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "blue_skies"
         }
       ],
       "recipe": {
