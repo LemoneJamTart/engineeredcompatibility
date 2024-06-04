@@ -4,6 +4,7 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
 ### Basegame Changes:
  - Adds `forge:leather` compatibility to all Vanilla recipes that use leather
  - Adds `forge:gravel` compatibility to all Vanilla recipes that use gravel
+ - Adds `forge:sand` compatibility to concrete recipes
  - Adds a logs-to-sawdust Crusher recipe
   
   
@@ -14,6 +15,16 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Adds Skyroot woodset to the Sawmill
      - Adds Ambrosium Shard and Zanite Gemstone to the Crusher
      - Adds Blue Berry and Enchanted Berry to the Fementer
+ - Aether Redux:
+     - Adds Blightwillow, Cloudcap, Crystal, Glacia, and Jellyshroom woodsets to the Sawmill
+     - Adds Zanberry to the Fementer
+     - Adds Veridium smelting to the Arc Furnace
+ - Ancient Aether:
+     - Adds Sakura and Highsproot woodsets to the Sawmill
+     - Adds Aether Quartz to the Crusher
+ - Blood Magic:
+     - Adds Demonite smelting to the Arc Furnace
+     - Adds Hellforged to the Crusher
  - Blue Skies:
      - Adds Bluebright, Starlit, Frostbright, Comet, Lunar, Maple, Dusk, and Crystallized woodsets to the Sawmill
      - Adds Midnight and Crystal sandstone crushing to the Crusher
@@ -23,6 +34,10 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
  - Botania:
      - Adds Mystical Flowers to the Cloche, courtesy of [RosaryMala](https://github.com/RosaryMala)
      - Adds Livingwood and Dreamwood woodsets to the Sawmill
+ - Caupona:
+     - Adds Walnut woodset to the Sawmill
+     - Adds Walnuts to the Squeezer
+     - Adds Fig and Wolfberries to the Fermenter
  - Coffee Delight:
      - Adds Coffee Berries to the Cloche
  - Create: Liquid Fuel
@@ -34,9 +49,13 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Adds Skyjade to the Crusher
      - Adds Goldenleaf Berries to the Fermenter
  - Deeper & Darker:
-     - Adds Echo woodset to the Sawmill 
+     - Adds Echo woodset to the Sawmill
+ - Ecologics:
+     - Adds Azalea, Coconut, Flowering Azalea, and Walnut woodsets to the Sawmill
+     - Adds Walnuts to the Squeezer
  - Eidolon:
      - Adds Illwood woodset to the Sawmill
+     - Adds Pewter alloying to the Arc Furnace
  - ElementalCraft:
      - Adds Springaline processing to the Crusher
      - Adds Inert Crystal crushing to the Crusher
@@ -45,6 +64,14 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Adds Aurum, Fungyss, and Edelwood woodsets to the Sawmill
      - Adds Soulless Sandstone and Arcane Crystal crushing to the Crusher
      - Adds Arcane Bone Meal to the Cloche
+ - Iron's Spells and Spellbooks:
+     - Adds Arcane Debris smelting to the Arc Furnace
+     - Adds Frozen Bone to the Crusher
+ - Midnight:
+     - Adds Bogshroom, Dark Willow, Viridshroom, Dewshroom, Manglewood, Moonshroom, Decayed, Nightshroom, and Shadowroot woodsets to the Sawmill
+     - Adds Strange Sand to `forge:sand` and recipes that use any color of sand
+     - Adds Dark Pearl, Ebonite, and Virilux to the Crusher
+     - Adds Nagrilite and Tenebrum smelting to the Arc Furnace
  - Miner's Delight
      - Adds Cave Carrot to the Cloche
  - Nature's Aura
@@ -59,6 +86,7 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
  - Quark:
      - Adds Soul Sandstone crushing to the Crusher
      - Adds a lead recipe for Framed Glass
+     - Adds Glow Shroom to the Cloche
  - Supplementaries:
      - Adds Flax Seeds to the Squeezer
  - Twilight Forest:
