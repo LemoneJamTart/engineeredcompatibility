@@ -1,15 +1,11 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
-    {
-      "neoforge:conditions": [
+  "neoforge:conditions": [
         {
           "type": "neoforge:mod_loaded",
           "modid": "aether_redux"
         }
       ],
-      "recipe": {
-        "type": "immersiveengineering:fermenter",
+  "type": "immersiveengineering:fermenter",
         "energy": 6400,
         "fluid": {
           "amount": 60,
@@ -18,7 +14,4 @@
         "input": {
           "item": "aether_redux:zanberry"
         }
-      }
-    }
-  ]
 }

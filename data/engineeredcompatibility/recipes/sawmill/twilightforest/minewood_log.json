@@ -1,15 +1,11 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
-    {
-      "neoforge:conditions": [
+  "neoforge:conditions": [
         {
           "type": "neoforge:mod_loaded",
           "modid": "twilightforest"
         }
       ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
+  "type": "immersiveengineering:sawmill",
         "energy": 1600,
         "input": [
           {
@@ -40,7 +36,4 @@
         "stripped": {
           "item": "twilightforest:stripped_mining_log"
         }
-      }
-    }
-  ]
 }

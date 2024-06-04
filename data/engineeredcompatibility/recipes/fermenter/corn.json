@@ -1,8 +1,5 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
-    {
-      "neoforge:conditions": [
+  "neoforge:conditions": [
         {
           "type": "neoforge:not",
           "value":{
@@ -18,8 +15,7 @@
           }
         }
       ],
-      "recipe": {
-        "type": "immersiveengineering:fermenter",
+  "type": "immersiveengineering:fermenter",
         "energy": 6400,
         "fluid": {
           "amount": 100,
@@ -28,7 +24,4 @@
         "input": {
           "tag": "forge:crops/corn"
         }
-      }
-    }
-  ]
 }

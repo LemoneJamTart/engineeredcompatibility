@@ -1,20 +1,13 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
-    {
-      "neoforge:conditions": [
+  "neoforge:conditions": [
         {
           "type": "neoforge:mod_loaded",
           "modid": "forbidden_arcanus"
         }
       ],
-      "recipe": {
-        "type": "immersiveengineering:fertilizer",
+  "type": "immersiveengineering:fertilizer",
         "growthModifier": 2.0,
         "input": {
           "item": "forbidden_arcanus:arcane_bone_meal"
         }
-      }
-    }
-  ]
 }
