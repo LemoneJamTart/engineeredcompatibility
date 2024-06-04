@@ -2,13 +2,13 @@
   "type": "forge:conditional",
   "recipes": [
     {
-      "conditions": [
+      "neoforge:conditions": [
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "liquidburner"
         },
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "immersivepetroleum"
         }
       ],

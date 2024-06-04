@@ -1,10 +1,10 @@
 {
-  "type": "forge:conditional",
+  "type": "neoforge:conditional",
   "recipes": [
     {
-      "conditions": [
+      "neoforge:conditions": [
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "hexcasting"
         }
       ],
@@ -37,15 +37,15 @@
       }
     },
     {
-      "conditions": [
+      "neoforge:conditions": [
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "create"
         },
         {
-          "type": "forge:not",
+          "type": "neoforge:not",
           "value": {
-            "type": "forge:mod_loaded",
+            "type": "neoforge:mod_loaded",
             "modid": "hexcasting"
           }
         }

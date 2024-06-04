@@ -1,27 +1,20 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:seeds/tea"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:squeezer",
-        "energy": 6400,
-        "fluid": {
-          "amount": 80,
-          "fluid": "immersiveengineering:plantoil"
-        },
-        "input": {
-          "tag": "forge:seeds/tea"
-        }
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:seeds/tea"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:squeezer",
+  "energy": 6400,
+  "fluid": {
+    "amount": 80,
+    "fluid": "immersiveengineering:plantoil"
+  },
+  "input": {
+    "tag": "forge:seeds/tea"
+  }
 }

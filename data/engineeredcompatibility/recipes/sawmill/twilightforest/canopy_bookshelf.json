@@ -1,15 +1,15 @@
 
 {
-  "type": "forge:conditional",
+  "type": "neoforge:conditional",
   "recipes": [
     {
-      "conditions": [
+      "neoforge:conditions": [
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "twilightforest"
         },
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "twilightforest"
         }
       ],

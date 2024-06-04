@@ -2,20 +2,20 @@
   "type": "forge:conditional",
   "recipes": [
     {
-      "conditions": [
+      "neoforge:conditions": [
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "liquidburner"
         },
         {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "immersivepetroleum"
         }
       ],
       "recipe": {
         "type": "liquidburner:liquidburning",
-        "fluid": "immersivepetroleum:gasoline",
-        "burntime": "12240",
+        "fluid": "immersivepetroleum:diesel",
+        "burntime": "14310",
         "superheattime" : "0"
       }
     }

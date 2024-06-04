@@ -1,37 +1,30 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "elementalcraft"
-        }
-      ],
-      "recipe": {
-        "type": "minecraft:crafting_shaped",
-        "category": "building",
-        "key": {
-          "L": {
-            "tag": "forge:wires/lead"
-          },
-          "G": {
-            "item": "elementalcraft:burnt_glass"
-          },
-          "S": {
-            "tag": "forge:gems/springaline"
-          }
-        },
-        "pattern": [
-          "LSL",
-          "SGS",
-          "LSL"
-        ],
-        "result": {
-          "item": "elementalcraft:springaline_glass",
-          "count": 3
-        }
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "elementalcraft"
     }
-  ]
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "L": {
+      "tag": "forge:wires/lead"
+    },
+    "G": {
+      "item": "elementalcraft:burnt_glass"
+    },
+    "S": {
+      "tag": "forge:gems/springaline"
+    }
+  },
+  "pattern": [
+    "LSL",
+    "SGS",
+    "LSL"
+  ],
+  "result": {
+    "item": "elementalcraft:springaline_glass",
+    "count": 3
+  }
 }

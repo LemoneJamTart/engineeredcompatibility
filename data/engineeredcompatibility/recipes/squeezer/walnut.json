@@ -1,27 +1,20 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:nuts/walnut"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:squeezer",
-        "energy": 6400,
-        "fluid": {
-          "amount": 100,
-          "fluid": "immersiveengineering:plantoil"
-        },
-        "input": {
-          "tag": "forge:nuts/walnut"
-        }
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:nuts/walnut"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:squeezer",
+  "energy": 6400,
+  "fluid": {
+    "amount": 100,
+    "fluid": "immersiveengineering:plantoil"
+    },
+  "input": {
+    "tag": "forge:nuts/walnut"
+  }
 }

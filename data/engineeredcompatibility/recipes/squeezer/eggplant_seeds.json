@@ -1,27 +1,20 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:seeds/eggplant"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:squeezer",
-        "energy": 6400,
-        "fluid": {
-          "amount": 80,
-          "fluid": "immersiveengineering:plantoil"
-        },
-        "input": {
-          "tag": "forge:seeds/eggplant"
-        }
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:seeds/eggplant"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:squeezer",
+  "energy": 6400,
+  "fluid": {
+    "amount": 80,
+    "fluid": "immersiveengineering:plantoil"
+  },
+  "input": {
+    "tag": "forge:seeds/eggplant"
+  }
 }
