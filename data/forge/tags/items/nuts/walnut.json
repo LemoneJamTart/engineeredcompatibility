@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "caupona:walnut",
+      "required": false
+    },
+    {
+      "id": "ecologics:walnut",
+      "required": false
+    }
+  ]
+}
