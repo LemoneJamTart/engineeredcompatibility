@@ -7,19 +7,19 @@
           "type": "forge:not",
           "value": {
             "type": "forge:tag_empty",
-            "tag": "forge:nuts/walnut"
+            "tag": "forge:fruits/fig"
           }
         }
       ],
       "recipe": {
-        "type": "immersiveengineering:squeezer",
+        "type": "immersiveengineering:fermenter",
         "energy": 6400,
         "fluid": {
-          "amount": 100,
-          "fluid": "immersiveengineering:plantoil"
+          "amount": 80,
+          "fluid": "immersiveengineering:ethanol"
         },
         "input": {
-          "tag": "forge:nuts/walnut"
+          "tag": "forge:fruits/fig"
         }
       }
     }
