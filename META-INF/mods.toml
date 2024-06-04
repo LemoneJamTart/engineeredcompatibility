@@ -1,6 +1,6 @@
 modLoader="lowcodefml" #mandatory
 # A version range to match for said mod loader - for regular FML @Mod it will be the the FML version. This is currently 47.
-loaderVersion="[47,)" #mandatory
+loaderVersion="[1,)" #mandatory
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license="MIT"
@@ -11,7 +11,7 @@ issueTrackerURL="https://github.com/voidsong-dragonfly/engineeredcompatibility/i
 # The modid of the mod
 modId="engineeredcompatibility" #mandatory
 # The version number of the mod
-version="2.4.0" #mandatory
+version="3.0.0" #mandatory
 # A display name for the mod
 displayName="Engineered Compatibility" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/
@@ -39,11 +39,11 @@ Engineered Compatibility: A datapack-mod adding compatibility between other mods
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.engineeredcompatibility]] #optional
     # the modid of the dependency
-    modId="forge" #mandatory
+    modId="neoforge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
     mandatory=true #mandatory
     # The version range of the dependency
-    versionRange="[47,)" #mandatory
+    versionRange="[1,)" #mandatory
     # An ordering relationship for the dependency - BEFORE or AFTER required if the dependency is not mandatory
     # BEFORE - This mod is loaded BEFORE the dependency
     # AFTER - This mod is loaded AFTER the dependency
@@ -54,6 +54,13 @@ Engineered Compatibility: A datapack-mod adding compatibility between other mods
 [[dependencies.engineeredcompatibility]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.1,1.20.2)"
+    versionRange="[1.20.4,1.20.5)"
     ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.engineeredcompatibility]]
+    modId="immersiveengineering"
+    mandatory=true
+    versionRange="[11.2.0,)"
+    ordering="AFTER"
     side="BOTH"
