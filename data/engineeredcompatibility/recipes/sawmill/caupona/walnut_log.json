@@ -1,46 +1,39 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "caupona"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "caupona:walnut_log"
-          },
-          {
-            "item": "caupona:walnut_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "caupona:walnut_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "caupona:stripped_walnut_log"
-        }
-      } 
+      "type": "neoforge:mod_loaded",
+      "modid": "caupona"
     }
-  ]
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": [
+    {
+      "item": "caupona:walnut_log"
+    },
+    {
+      "item": "caupona:walnut_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "caupona:walnut_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "caupona:stripped_walnut_log"
+  }
 }
