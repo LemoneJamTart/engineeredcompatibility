@@ -1,25 +1,21 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:ingots/pewter"
-          }
-        },
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:ingots/lead"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:arc_furnace",
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/pewter"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/lead"
+      }
+    }
+  ],
+  "type": "immersiveengineering:arc_furnace",
         "additives": [
           {
             "tag": "forge:ingots/iron"
@@ -40,7 +36,4 @@
           }
         ],
         "time": 100
-      }
-    }
-  ]
 }

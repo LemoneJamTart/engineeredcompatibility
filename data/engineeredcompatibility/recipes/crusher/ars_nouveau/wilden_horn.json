@@ -1,15 +1,11 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "ars_nouveau"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "type": "immersiveengineering:crusher",
         "energy": 1600,
         "input": {
           "item": "ars_nouveau:wilden_horn"
@@ -19,7 +15,4 @@
           "item": "minecraft:bone_meal"
         },
         "secondaries": []
-      }
-    }
-  ]
 }

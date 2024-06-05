@@ -1,25 +1,21 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:ores/pyrope"
-          }
-        },
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:gems/pyrope"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ores/pyrope"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:gems/pyrope"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
         "energy": 6000,
         "input": {
           "tag": "forge:ores/pyrope"
@@ -31,7 +27,4 @@
           "count": 2
         },
         "secondaries": []
-      }
-    }
-  ]
 }

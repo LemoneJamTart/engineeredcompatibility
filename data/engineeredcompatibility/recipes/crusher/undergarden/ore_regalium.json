@@ -1,25 +1,21 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:ores/regalium"
-          }
-        },
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:ingots/regalium"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ores/regalium"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/regalium"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
         "energy": 6000,
         "input": {
           "tag": "forge:ores/regalium"
@@ -31,7 +27,4 @@
           "count": 2
         },
         "secondaries": []
-      }
-    }
-  ]
 }

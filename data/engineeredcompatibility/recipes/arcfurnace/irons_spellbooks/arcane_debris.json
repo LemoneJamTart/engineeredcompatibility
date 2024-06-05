@@ -1,15 +1,11 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "irons_spellbooks"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:arc_furnace",
+      "type": "neoforge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "immersiveengineering:arc_furnace",
         "additives": [],
         "energy": 512000,
         "input": {
@@ -25,7 +21,4 @@
           "tag": "forge:slag"
         },
         "time": 100
-      }
-    }
-  ]
 }

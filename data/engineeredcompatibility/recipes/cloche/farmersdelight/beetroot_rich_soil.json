@@ -1,15 +1,11 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "farmersdelight"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:cloche",
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "immersiveengineering:cloche",
         "input": {
           "item": "minecraft:beetroot_seeds"
         },
@@ -30,7 +26,4 @@
           "item": "farmersdelight:rich_soil"
         },
         "time": 530
-      }
-    }
-  ]
 }

@@ -1,18 +1,14 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:storage_blocks/raw_iesnium"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:arc_furnace",
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:storage_blocks/raw_iesnium"
+      }
+    }
+  ],
+  "type": "immersiveengineering:arc_furnace",
         "additives": [],
         "energy": 230400,
         "input": {
@@ -35,7 +31,4 @@
           }
         ],
         "time": 900
-      }
-    }
-  ]
 }

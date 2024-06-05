@@ -1,18 +1,14 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:ores/nagrilite"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:arc_furnace",
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ores/nagrilite"
+      }
+    }
+  ],
+  "type": "immersiveengineering:arc_furnace",
         "additives": [],
         "energy": 102400,
         "input": {
@@ -30,7 +26,4 @@
           "tag": "forge:slag"
         },
         "time": 200
-      }
-    }
-  ]
 }

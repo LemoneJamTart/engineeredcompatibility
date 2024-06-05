@@ -1,15 +1,11 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "blue_skies"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
+      "type": "neoforge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ],
+  "type": "immersiveengineering:crusher",
         "energy": 2000,
         "input": {
           "item": "blue_skies:lunar_stone"
@@ -18,7 +14,4 @@
           "item": "blue_skies:lunar_cobblestone"
         },
         "secondaries": []
-      }
-    }
-  ]
 }

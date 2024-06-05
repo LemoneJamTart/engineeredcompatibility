@@ -1,18 +1,14 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:gems/springaline"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:gems/springaline"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
         "energy": 3200,
         "input": {
           "tag": "forge:storage_blocks/springaline"
@@ -24,7 +20,4 @@
           "count": 4
         },
         "secondaries": [ ]
-      }
-    }
-  ]
 }

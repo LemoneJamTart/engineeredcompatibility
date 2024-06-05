@@ -1,25 +1,21 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:sandstone/crystal"
-          }
-        },
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:sand/crystal"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:sandstone/crystal"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:sand/crystal"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
         "energy": 3200,
         "input": {
           "tag": "forge:sandstone/crystal"
@@ -38,7 +34,4 @@
             }
           }
         ]
-      }
-    }
-  ]
 }

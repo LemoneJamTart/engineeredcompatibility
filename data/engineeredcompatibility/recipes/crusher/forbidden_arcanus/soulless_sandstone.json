@@ -1,25 +1,21 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:sandstone/soulless"
-          }
-        },
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:sand/soulless"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:sandstone/soulless"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:sand/soulless"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
         "energy": 3200,
         "input": {
           "tag": "forge:sandstone/soulless"
@@ -38,7 +34,4 @@
             }
           }
         ]
-      }
-    }
-  ]
 }

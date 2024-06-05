@@ -1,15 +1,11 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "undergarden"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:cloche",
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
+    }
+  ],
+  "type": "immersiveengineering:cloche",
         "input": {
           "item": "undergarden:blisterberry"
         },
@@ -27,7 +23,4 @@
           "item": "undergarden:deepsoil"
         },
         "time": 560
-      }
-    }
-  ]
 }

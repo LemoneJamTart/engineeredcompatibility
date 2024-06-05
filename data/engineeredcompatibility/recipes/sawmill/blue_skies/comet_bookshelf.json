@@ -1,16 +1,12 @@
 
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "blue_skies"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
+      "type": "neoforge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ],
+  "type": "immersiveengineering:sawmill",
         "energy": 1600,
         "input": {
           "item": "blue_skies:comet_bookshelf"
@@ -34,7 +30,4 @@
             "stripping": false
           }
         ]
-      }
-    }
-  ]
 }

@@ -1,13 +1,13 @@
 {
   "neoforge:conditions": [
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:fruits/whitecurrant"
-          }
-        }
-      ],
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:fruits/whitecurrant"
+      }
+    }
+  ],
   "type": "immersiveengineering:fermenter",
         "energy": 6400,
         "fluid": {

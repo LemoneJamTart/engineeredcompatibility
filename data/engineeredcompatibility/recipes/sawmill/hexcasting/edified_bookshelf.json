@@ -1,20 +1,16 @@
 
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "hexcasting"
-        },
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "everycomp"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
+      "type": "neoforge:mod_loaded",
+      "modid": "hexcasting"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "everycomp"
+    }
+  ],
+  "type": "immersiveengineering:sawmill",
         "energy": 1600,
         "input": {
           "item": "everycomp:q/hexcasting/edified_bookshelf"
@@ -38,7 +34,4 @@
             "stripping": false
           }
         ]
-      }
-    }
-  ]
 }

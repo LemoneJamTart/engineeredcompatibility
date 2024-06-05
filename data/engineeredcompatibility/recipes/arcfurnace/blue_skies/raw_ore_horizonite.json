@@ -1,18 +1,14 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:raw_materials/horizonite"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:arc_furnace",
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:raw_materials/horizonite"
+      }
+    }
+  ],
+  "type": "immersiveengineering:arc_furnace",
         "additives": [],
         "energy": 25600,
         "input": {
@@ -32,7 +28,4 @@
           }
         ],
         "time": 100
-      }
-    }
-  ]
 }

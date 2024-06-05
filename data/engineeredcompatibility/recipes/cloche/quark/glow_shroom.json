@@ -1,15 +1,11 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "quark"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:cloche",
+      "type": "neoforge:mod_loaded",
+      "modid": "quark"
+    }
+  ],
+  "type": "immersiveengineering:cloche",
         "input": {
           "item": "quark:glow_shroom"
         },
@@ -28,7 +24,4 @@
           }
         ],
         "time": 480
-      }
-    }
-  ]
 }

@@ -1,15 +1,11 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "irons_spellbooks"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
+      "type": "neoforge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "immersiveengineering:crusher",
         "energy": 1600,
         "input": {
           "item": "irons_spellbooks:frozen_bone"
@@ -19,7 +15,4 @@
           "item": "minecraft:bone_meal"
         },
         "secondaries": []
-      }
-    }
-  ]
 }

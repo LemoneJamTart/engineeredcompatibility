@@ -1,15 +1,11 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "midnight"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
+      "type": "neoforge:mod_loaded",
+      "modid": "midnight"
+    }
+  ],
+  "type": "immersiveengineering:sawmill",
         "energy": 1600,
         "input": {
           "item": "midnight:viridshroom_stairs"
@@ -25,7 +21,4 @@
             "stripping": false
           }
         ]
-      }
-    }
-  ]
 }

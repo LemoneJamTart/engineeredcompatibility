@@ -1,18 +1,14 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:dusts/certus_quartz"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:dusts/certus_quartz"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
         "energy": 2400,
         "input": {
           "tag": "forge:gems/certus_quartz"
@@ -24,7 +20,4 @@
           "count": 1
         },
         "secondaries": [ ]
-      }
-    }
-  ]
 }

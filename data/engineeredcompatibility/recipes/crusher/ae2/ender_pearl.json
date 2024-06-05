@@ -1,18 +1,14 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:tag_empty",
-            "tag": "forge:dusts/ender_pearl"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:dusts/ender_pearl"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
         "energy": 2400,
         "input": {
           "tag": "forge:ender_pearls"
@@ -24,7 +20,4 @@
           "count": 1
         },
         "secondaries": [ ]
-      }
-    }
-  ]
 }

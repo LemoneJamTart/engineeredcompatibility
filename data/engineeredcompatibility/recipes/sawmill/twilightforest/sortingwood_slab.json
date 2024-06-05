@@ -1,15 +1,11 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "twilightforest"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "immersiveengineering:sawmill",
         "energy": 800,
         "input": {
           "item": "twilightforest:sorting_planks"
@@ -26,7 +22,4 @@
             "stripping": false
           }
         ]
-      }
-    }
-  ]
 }
