@@ -6,21 +6,21 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "minecraft:bamboo"
-        },
-        "render": {
-          "type": "stacking",
-          "block": "minecraft:bamboo"
-        },
-        "results": [
-          {
-            "item": "minecraft:bamboo",
-            "count": 1
-           }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 370
+  "input": {
+    "item": "minecraft:bamboo"
+  },
+  "render": {
+    "type": "stacking",
+    "block": "minecraft:bamboo"
+  },
+  "results": [
+    {
+      "item": "minecraft:bamboo",
+      "count": 1
+     }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 370
 }

@@ -1,33 +1,26 @@
 {
-  "type": "neoforge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "farmersdelight"
-        }
-      ],
-      "recipe": {   
-        "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "farmersdelight:onion"
-        },
-        "render": {
-          "type": "crop",
-          "block": "farmersdelight:onions"
-        },
-        "results": [
-          {
-            "item": "farmersdelight:onion",
-            "count": 2
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 530
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
     }
-  ]
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "farmersdelight:onion"
+  },
+  "render": {
+    "type": "crop",
+    "block": "farmersdelight:onions"
+  },
+  "results": [
+    {
+      "item": "farmersdelight:onion",
+      "count": 2
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 530
 }

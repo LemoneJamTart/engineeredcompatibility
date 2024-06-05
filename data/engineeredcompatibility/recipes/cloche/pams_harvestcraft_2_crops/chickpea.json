@@ -6,24 +6,24 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "pamhc2crops:chickpeaseeditem"
-        },
-        "render": {
-          "type": "crop",
-          "block": "pamhc2crops:pamchickpeacrop"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "pamhc2crops:chickpeaitem"
-          },
-          {
-            "item": "pamhc2crops:chickpeaseeditem"
-          }
-        ],
-        "soil": {
-          "item": "minecraft:dirt"
-        },
-        "time": 800
+  "input": {
+    "item": "pamhc2crops:chickpeaseeditem"
+  },
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pamchickpeacrop"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "pamhc2crops:chickpeaitem"
+    },
+    {
+      "item": "pamhc2crops:chickpeaseeditem"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
 }

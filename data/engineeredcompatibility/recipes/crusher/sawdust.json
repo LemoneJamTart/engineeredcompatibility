@@ -5,7 +5,7 @@
     "tag": "minecraft:logs"
   },
   "result": {
-    "base_ingredient": {
+    "basePredicate": {
       "tag": "forge:dusts/wood"
     },
     "count": 16

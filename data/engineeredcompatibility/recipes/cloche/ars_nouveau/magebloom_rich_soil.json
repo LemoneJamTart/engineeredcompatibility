@@ -10,21 +10,21 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "ars_nouveau:magebloom_crop"
-        },
-        "render": {
-          "type": "crop",
-          "block": "ars_nouveau:magebloom_crop"
-        },
-        "results": [
-          {
-            "item": "ars_nouveau:magebloom",
-            "count": 1
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 530
+  "input": {
+    "item": "ars_nouveau:magebloom_crop"
+  },
+  "render": {
+    "type": "crop",
+    "block": "ars_nouveau:magebloom_crop"
+  },
+  "results": [
+    {
+      "item": "ars_nouveau:magebloom",
+      "count": 1
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 530
 }

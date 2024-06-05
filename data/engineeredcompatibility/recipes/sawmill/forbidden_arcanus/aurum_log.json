@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "forbidden_arcanus:aurum_log"
-          },
-          {
-            "item": "forbidden_arcanus:aurum_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "forbidden_arcanus:aurum_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "forbidden_arcanus:stripped_aurum_log"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "forbidden_arcanus:aurum_log"
+    },
+    {
+      "item": "forbidden_arcanus:aurum_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "forbidden_arcanus:aurum_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "forbidden_arcanus:stripped_aurum_log"
+  }
 }

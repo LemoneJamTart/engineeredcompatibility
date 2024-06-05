@@ -6,24 +6,31 @@
         "type": "neoforge:tag_empty",
         "tag": "forge:ores/veridium"
       }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/veridium"
+      }
     }
   ],
   "type": "immersiveengineering:arc_furnace",
-        "additives": [],
-        "energy": 102400,
-        "input": {
-          "tag": "forge:ores/veridium"
-        },
-        "results": [
-          {
-            "base_ingredient": {
-              "tag": "forge:ingots/veridium"
-            },
-            "count": 2
-          }
-        ],
-        "slag": {
-          "tag": "forge:slag"
-        },
-        "time": 200
+  "additives": [],
+  "energy": 102400,
+  "input": {
+    "tag": "forge:ores/veridium"
+  },
+  "results": [
+    {
+      "basePredicate": {
+        "tag": "forge:ingots/veridium"
+      },
+      "count": 2
+    }
+  ],
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 200
 }

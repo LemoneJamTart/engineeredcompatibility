@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "hexcasting:edified_log"
-          },
-          {
-            "item": "hexcasting:edified_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "hexcasting:edified_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "hexcasting:stripped_edified_log"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "hexcasting:edified_log"
+    },
+    {
+      "item": "hexcasting:edified_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "hexcasting:edified_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "hexcasting:stripped_edified_log"
+  }
 }

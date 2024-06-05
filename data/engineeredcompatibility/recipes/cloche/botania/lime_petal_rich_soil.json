@@ -10,20 +10,20 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "botania:lime_petal"
-        },
-        "render": {
-          "type": "generic",
-          "block": "botania:lime_mystical_flower"
-        },
-        "results": [
-          {
-            "item": "botania:lime_petal"
-          }
-        ],
-        "soil":{
-          "item":"farmersdelight:rich_soil"
-        },
-        "time":320
+  "input": {
+    "item": "botania:lime_petal"
+  },
+  "render": {
+    "type": "generic",
+    "block": "botania:lime_mystical_flower"
+  },
+  "results": [
+    {
+      "item": "botania:lime_petal"
+    }
+  ],
+  "soil":{
+    "item":"farmersdelight:rich_soil"
+  },
+  "time":320
 }

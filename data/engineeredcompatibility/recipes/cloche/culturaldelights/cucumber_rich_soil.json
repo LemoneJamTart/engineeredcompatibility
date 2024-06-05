@@ -10,24 +10,24 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "culturaldelights:cucumber_seeds"
-        },
-        "render": {
-          "type": "crop",
-          "block": "culturaldelights:cucumbers"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "culturaldelights:cucumber"
-          },
-          {
-            "item": "culturaldelights:cucumber_seeds"
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 640
+  "input": {
+    "item": "culturaldelights:cucumber_seeds"
+  },
+  "render": {
+    "type": "crop",
+    "block": "culturaldelights:cucumbers"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "culturaldelights:cucumber"
+    },
+    {
+      "item": "culturaldelights:cucumber_seeds"
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 640
 }

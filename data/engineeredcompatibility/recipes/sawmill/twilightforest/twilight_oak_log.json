@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "twilightforest:twilight_oak_log"
-          },
-          {
-            "item": "twilightforest:twilight_oak_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "twilightforest:twilight_oak_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "twilightforest:stripped_twilight_oak_log"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "twilightforest:twilight_oak_log"
+    },
+    {
+      "item": "twilightforest:twilight_oak_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "twilightforest:twilight_oak_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "twilightforest:stripped_twilight_oak_log"
+  }
 }

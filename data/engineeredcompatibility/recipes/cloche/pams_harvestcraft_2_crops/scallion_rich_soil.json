@@ -10,24 +10,24 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "pamhc2crops:scallionseeditem"
-        },
-        "render": {
-          "type": "crop",
-          "block": "pamhc2crops:pamscallioncrop"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "pamhc2crops:scallionitem"
-          },
-          {
-            "item": "pamhc2crops:scallionseeditem"
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 530
+  "input": {
+    "item": "pamhc2crops:scallionseeditem"
+  },
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pamscallioncrop"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "pamhc2crops:scallionitem"
+    },
+    {
+      "item": "pamhc2crops:scallionseeditem"
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 530
 }

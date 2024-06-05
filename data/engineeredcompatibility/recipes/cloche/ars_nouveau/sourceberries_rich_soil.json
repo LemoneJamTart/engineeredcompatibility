@@ -10,21 +10,21 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "ars_nouveau:sourceberry_bush"
-        },
-        "render": {
-          "type": "crop",
-          "block": "ars_nouveau:sourceberry_bush"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "ars_nouveau:sourceberry_bush"
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 370
+  "input": {
+    "item": "ars_nouveau:sourceberry_bush"
+  },
+  "render": {
+    "type": "crop",
+    "block": "ars_nouveau:sourceberry_bush"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "ars_nouveau:sourceberry_bush"
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 370
 }

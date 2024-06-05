@@ -6,19 +6,19 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 800,
-        "input": {
-          "item": "aether_redux:glacia_door"
-        },
-        "result": {
-          "item": "aether_redux:glacia_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
+  "energy": 800,
+  "input": {
+    "item": "aether_redux:glacia_door"
+  },
+  "result": {
+    "item": "aether_redux:glacia_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ]
 }

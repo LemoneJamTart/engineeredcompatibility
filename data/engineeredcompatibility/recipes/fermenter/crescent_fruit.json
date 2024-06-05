@@ -6,12 +6,12 @@
     }
   ],
   "type": "immersiveengineering:fermenter",
-        "energy": 6400,
-        "fluid": {
-          "amount": 80,
-          "fluid": "immersiveengineering:ethanol"
-        },
-        "input": {
-          "item": "blue_skies:crescent_fruit"
-        }
+  "energy": 6400,
+  "fluid": {
+    "amount": 80,
+    "fluid": "immersiveengineering:ethanol"
+  },
+  "input": {
+    "item": "blue_skies:crescent_fruit"
+  }
 }

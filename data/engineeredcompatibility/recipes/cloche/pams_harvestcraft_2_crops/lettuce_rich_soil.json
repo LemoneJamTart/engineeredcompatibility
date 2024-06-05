@@ -10,24 +10,24 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "pamhc2crops:lettuceseeditem"
-        },
-        "render": {
-          "type": "crop",
-          "block": "pamhc2crops:pamlettucecrop"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "pamhc2crops:lettuceitem"
-          },
-          {
-            "item": "pamhc2crops:lettuceseeditem"
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 530
+  "input": {
+    "item": "pamhc2crops:lettuceseeditem"
+  },
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pamlettucecrop"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "pamhc2crops:lettuceitem"
+    },
+    {
+      "item": "pamhc2crops:lettuceseeditem"
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 530
 }

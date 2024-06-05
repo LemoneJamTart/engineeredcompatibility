@@ -6,25 +6,25 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "forbidden_arcanus:fungyss_stem"
-          },
-          {
-            "item": "forbidden_arcanus:fungyss_hyphae"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "forbidden_arcanus:fungyss_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
+  "energy": 1600,
+  "input": [
+    {
+      "item": "forbidden_arcanus:fungyss_stem"
+    },
+    {
+      "item": "forbidden_arcanus:fungyss_hyphae"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "forbidden_arcanus:fungyss_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ]
 }

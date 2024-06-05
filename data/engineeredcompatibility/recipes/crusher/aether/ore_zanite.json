@@ -16,15 +16,15 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 6000,
-        "input": {
-          "tag": "forge:ores/zanite"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:gems/zanite"
-          },
-          "count": 2
-        },
-        "secondaries": []
+  "energy": 6000,
+  "input": {
+    "tag": "forge:ores/zanite"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:gems/zanite"
+    },
+    "count": 2
+  },
+  "secondaries": []
 }

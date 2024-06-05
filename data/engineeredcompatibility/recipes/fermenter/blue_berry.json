@@ -6,12 +6,12 @@
     }
   ],
   "type": "immersiveengineering:fermenter",
-        "energy": 6400,
-        "fluid": {
-          "amount": 60,
-          "fluid": "immersiveengineering:ethanol"
-        },
-        "input": {
-          "item": "aether:blue_berry"
-        }
+  "energy": 6400,
+  "fluid": {
+    "amount": 60,
+    "fluid": "immersiveengineering:ethanol"
+  },
+  "input": {
+    "item": "aether:blue_berry"
+  }
 }

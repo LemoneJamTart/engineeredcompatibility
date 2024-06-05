@@ -6,19 +6,19 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 800,
-        "input": {
-          "item": "ancient_aether:sakura_door"
-        },
-        "result": {
-          "item": "ancient_aether:sakura_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
+  "energy": 800,
+  "input": {
+    "item": "ancient_aether:sakura_door"
+  },
+  "result": {
+    "item": "ancient_aether:sakura_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ]
 }

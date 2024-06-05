@@ -6,26 +6,33 @@
         "type": "neoforge:tag_empty",
         "tag": "forge:raw_materials/froststeel"
       }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/froststeel"
+      }
     }
   ],
   "type": "immersiveengineering:arc_furnace",
-        "additives": [],
-        "energy": 25600,
-        "input": {
-          "tag": "forge:raw_materials/froststeel"
-        },
-        "results": [
-          {
-            "tag": "forge:ingots/froststeel"
-          }
-        ],
-        "secondaries": [
-          {
-            "chance": 0.5,
-            "output": {
-              "tag": "forge:ingots/froststeel"
-            }
-          }
-        ],
-        "time": 100
+  "additives": [],
+  "energy": 25600,
+  "input": {
+    "tag": "forge:raw_materials/froststeel"
+  },
+  "results": [
+    {
+      "tag": "forge:ingots/froststeel"
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:ingots/froststeel"
+      }
+    }
+  ],
+  "time": 100
 }

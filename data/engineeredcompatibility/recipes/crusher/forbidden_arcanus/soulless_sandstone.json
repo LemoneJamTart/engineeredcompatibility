@@ -16,22 +16,22 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 3200,
-        "input": {
-          "tag": "forge:sandstone/soulless"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:sand/soulless"
-          },
-          "count": 2
-        },
-        "secondaries": [
-          {
-            "chance": 0.875,
-            "output": {
-              "tag": "forge:dusts/saltpeter"
-            }
-          }
-        ]
+  "energy": 3200,
+  "input": {
+    "tag": "forge:sandstone/soulless"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:sand/soulless"
+    },
+    "count": 2
+  },
+  "secondaries": [
+    {
+      "chance": 0.875,
+      "output": {
+        "tag": "forge:dusts/saltpeter"
+      }
+    }
+  ]
 }

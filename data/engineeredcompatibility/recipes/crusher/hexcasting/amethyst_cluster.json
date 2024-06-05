@@ -6,54 +6,54 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 2400,
-        "input": {
-          "tag": "forge:clusters/amethyst"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:gems/amethyst"
-          },
-          "count": 8
-        },
-        "secondaries": [
-          {
-            "chance": 0.9,
-            "output": {
-              "tag": "forge:dusts/amethyst"
-            }
-          },
-          {
-            "chance": 0.25,
-            "output": {
-              "tag": "forge:gems/charged_amethyst"
-            }
-          }
-        ]
+  "energy": 2400,
+  "input": {
+    "tag": "forge:clusters/amethyst"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:gems/amethyst"
+    },
+    "count": 8
+  },
+  "secondaries": [
+    {
+      "chance": 0.9,
+      "output": {
+        "tag": "forge:dusts/amethyst"
       }
     },
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "create"
-        },
-        {
-          "type": "neoforge:not",
-          "value": {
-            "type": "neoforge:mod_loaded",
-            "modid": "hexcasting"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
+      "chance": 0.25,
+      "output": {
+        "tag": "forge:gems/charged_amethyst"
+      }
+    }
+  ]
+}
+    },
+    {
+"neoforge:conditions": [
+  {
+    "type": "neoforge:mod_loaded",
+    "modid": "create"
+  },
+  {
+    "type": "neoforge:not",
+    "value": {
+      "type": "neoforge:mod_loaded",
+      "modid": "hexcasting"
+    }
+  }
+],
+"recipe": {
+  "type": "immersiveengineering:crusher",
         "energy": 2400,
         "input": {
           "tag": "forge:clusters/amethyst"
         },
         "result": {
-          "base_ingredient": {
+          "basePredicate": {
             "tag": "forge:gems/amethyst"
           },
           "count": 7

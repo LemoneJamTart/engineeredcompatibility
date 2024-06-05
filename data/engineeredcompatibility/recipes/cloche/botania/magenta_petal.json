@@ -6,20 +6,20 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "botania:magenta_petal"
-        },
-        "render": {
-          "type": "generic",
-          "block": "botania:magenta_mystical_flower"
-        },
-        "results": [
-          {
-            "item": "botania:magenta_petal"
-          }
-        ],
-        "soil":{
-          "item":"minecraft:dirt"
-        },
-        "time":480
+  "input": {
+    "item": "botania:magenta_petal"
+  },
+  "render": {
+    "type": "generic",
+    "block": "botania:magenta_mystical_flower"
+  },
+  "results": [
+    {
+      "item": "botania:magenta_petal"
+    }
+  ],
+  "soil":{
+    "item":"minecraft:dirt"
+  },
+  "time":480
 }

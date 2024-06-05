@@ -6,21 +6,21 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "minecraft:pumpkin_seeds"
-        },
-        "render": {
-          "type": "stem",
-          "block": "minecraft:pumpkin"
-        },
-        "results": [
-          {
-            "item": "minecraft:pumpkin",
-            "count": 1
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 530
+  "input": {
+    "item": "minecraft:pumpkin_seeds"
+  },
+  "render": {
+    "type": "stem",
+    "block": "minecraft:pumpkin"
+  },
+  "results": [
+    {
+      "item": "minecraft:pumpkin",
+      "count": 1
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 530
 }

@@ -10,20 +10,20 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "ars_nouveau:magebloom_crop"
-        },
-        "render": {
-          "type": "crop",
-          "block": "ars_nouveau:magebloom_crop"
-        },
-        "results": [
-          {
-            "item": "ars_nouveau:magebloom"
-          }
-        ],
-        "soil": {
-          "item": "minecraft:dirt"
-        },
-        "time": 800
+  "input": {
+    "item": "ars_nouveau:magebloom_crop"
+  },
+  "render": {
+    "type": "crop",
+    "block": "ars_nouveau:magebloom_crop"
+  },
+  "results": [
+    {
+      "item": "ars_nouveau:magebloom"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
 }

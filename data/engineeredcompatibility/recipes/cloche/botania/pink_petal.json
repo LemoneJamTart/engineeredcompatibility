@@ -6,20 +6,20 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "botania:pink_petal"
-        },
-        "render": {
-          "type": "generic",
-          "block": "botania:pink_mystical_flower"
-        },
-        "results": [
-          {
-            "item": "botania:pink_petal"
-          }
-        ],
-        "soil":{
-          "item":"minecraft:dirt"
-        },
-        "time":480
+  "input": {
+    "item": "botania:pink_petal"
+  },
+  "render": {
+    "type": "generic",
+    "block": "botania:pink_mystical_flower"
+  },
+  "results": [
+    {
+      "item": "botania:pink_petal"
+    }
+  ],
+  "soil":{
+    "item":"minecraft:dirt"
+  },
+  "time":480
 }

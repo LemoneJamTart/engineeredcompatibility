@@ -6,19 +6,19 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": {
-          "item": "ars_nouveau:archwood_stairs"
-        },
-        "result": {
-          "item": "ars_nouveau:archwood_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
+  "energy": 1600,
+  "input": {
+    "item": "ars_nouveau:archwood_stairs"
+  },
+  "result": {
+    "item": "ars_nouveau:archwood_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ]
 }

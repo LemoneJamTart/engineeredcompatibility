@@ -12,8 +12,8 @@
   "type": "immersiveengineering:squeezer",
   "energy": 6400,
   "result": {
-    "base_ingredient": {
-      "item": "create:experience_nugget"
+    "basePredicate": {
+"item": "create:experience_nugget"
     },
     "count": 4
   },

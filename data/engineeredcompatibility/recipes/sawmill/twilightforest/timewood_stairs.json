@@ -6,19 +6,19 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": {
-          "item": "twilightforest:time_stairs"
-        },
-        "result": {
-          "item": "twilightforest:time_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
+  "energy": 1600,
+  "input": {
+    "item": "twilightforest:time_stairs"
+  },
+  "result": {
+    "item": "twilightforest:time_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ]
 }

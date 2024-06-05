@@ -6,12 +6,12 @@
     }
   ],
   "type": "immersiveengineering:fermenter",
-        "energy": 6400,
-        "fluid": {
-          "amount": 50,
-          "fluid": "immersiveengineering:ethanol"
-        },
-        "input": {
-          "item": "undergarden:blisterberry"
-        }
+  "energy": 6400,
+  "fluid": {
+    "amount": 50,
+    "fluid": "immersiveengineering:ethanol"
+  },
+  "input": {
+    "item": "undergarden:blisterberry"
+  }
 }

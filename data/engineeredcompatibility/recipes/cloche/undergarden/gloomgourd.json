@@ -6,20 +6,20 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "undergarden:gloomgourd_seeds"
-        },
-        "render": {
-          "type": "stem",
-          "block": "undergarden:gloomgourd_stem"
-        },
-        "results": [
-          {
-            "item": "undergarden:gloomgourd"
-          }
-        ],
-        "soil": {
-          "item": "undergarden:deepsoil"
-        },
-        "time": 800
+  "input": {
+    "item": "undergarden:gloomgourd_seeds"
+  },
+  "render": {
+    "type": "stem",
+    "block": "undergarden:gloomgourd_stem"
+  },
+  "results": [
+    {
+      "item": "undergarden:gloomgourd"
+    }
+  ],
+  "soil": {
+    "item": "undergarden:deepsoil"
+  },
+  "time": 800
 }

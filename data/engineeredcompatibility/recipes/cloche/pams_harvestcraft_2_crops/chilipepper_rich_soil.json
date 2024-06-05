@@ -10,24 +10,24 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "pamhc2crops:chilipepperseeditem"
-        },
-        "render": {
-          "type": "crop",
-          "block": "pamhc2crops:pamchilipeppercrop"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "pamhc2crops:chilipepperitem"
-          },
-          {
-            "item": "pamhc2crops:chilipepperseeditem"
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 530
+  "input": {
+    "item": "pamhc2crops:chilipepperseeditem"
+  },
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pamchilipeppercrop"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "pamhc2crops:chilipepperitem"
+    },
+    {
+      "item": "pamhc2crops:chilipepperseeditem"
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 530
 }

@@ -6,22 +6,22 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 6000,
-        "input": {
-          "item": "ancient_aether:aether_quartz_ore"
-        },
-        "result": {
-          "base_ingredient": {
-            "item": "minecraft:quartz"
-          },
-          "count": 3
-        },
-        "secondaries": [
-          {
-            "chance": 0.25,
-            "output": {
-              "tag": "forge:gems/ambrosium"
-            }
-          }
-        ]
+  "energy": 6000,
+  "input": {
+    "item": "ancient_aether:aether_quartz_ore"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "minecraft:quartz"
+    },
+    "count": 3
+  },
+  "secondaries": [
+    {
+      "chance": 0.25,
+      "output": {
+        "tag": "forge:gems/ambrosium"
+      }
+    }
+  ]
 }

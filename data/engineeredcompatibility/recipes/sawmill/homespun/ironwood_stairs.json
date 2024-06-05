@@ -6,19 +6,19 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": {
-          "item": "homespun:ironwood_stairs"
-        },
-        "result": {
-          "item": "homespun:ironwood_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
+  "energy": 1600,
+  "input": {
+    "item": "homespun:ironwood_stairs"
+  },
+  "result": {
+    "item": "homespun:ironwood_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ]
 }

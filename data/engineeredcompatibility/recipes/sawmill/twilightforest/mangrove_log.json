@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "twilightforest:mangrove_log"
-          },
-          {
-            "item": "twilightforest:mangrove_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "twilightforest:mangrove_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "twilightforest:stripped_mangrove_log"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "twilightforest:mangrove_log"
+    },
+    {
+      "item": "twilightforest:mangrove_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "twilightforest:mangrove_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "twilightforest:stripped_mangrove_log"
+  }
 }

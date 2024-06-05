@@ -6,24 +6,31 @@
         "type": "neoforge:tag_empty",
         "tag": "forge:ores/hellforged"
       }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/hellforged"
+      }
     }
   ],
   "type": "immersiveengineering:arc_furnace",
-        "additives": [],
-        "energy": 102400,
-        "input": {
-          "tag": "forge:ores/hellforged"
-        },
-        "results": [
-          {
-            "base_ingredient": {
-              "tag": "forge:ingots/hellforged"
-            },
-            "count": 2
-          }
-        ],
-        "slag": {
-          "tag": "forge:slag"
-        },
-        "time": 200
+  "additives": [],
+  "energy": 102400,
+  "input": {
+    "tag": "forge:ores/hellforged"
+  },
+  "results": [
+    {
+      "basePredicate": {
+        "tag": "forge:ingots/hellforged"
+      },
+      "count": 2
+    }
+  ],
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 200
 }

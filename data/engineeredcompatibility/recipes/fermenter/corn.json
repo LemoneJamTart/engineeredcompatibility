@@ -16,12 +16,12 @@
     }
   ],
   "type": "immersiveengineering:fermenter",
-        "energy": 6400,
-        "fluid": {
-          "amount": 100,
-          "fluid": "immersiveengineering:ethanol"
-        },
-        "input": {
-          "tag": "forge:crops/corn"
-        }
+  "energy": 6400,
+  "fluid": {
+    "amount": 100,
+    "fluid": "immersiveengineering:ethanol"
+  },
+  "input": {
+    "tag": "forge:crops/corn"
+  }
 }

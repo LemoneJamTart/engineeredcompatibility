@@ -13,15 +13,15 @@
         }
       ],
   "type": "immersiveengineering:crusher",
-        "energy": 6000,
-        "input": {
-          "tag": "forge:ores/inert_crystal"
-        },
-        "result": {
-          "base_ingredient": {
-            "item": "elementalcraft:inert_crystal"
-          },
-          "count": 2
-        },
-        "secondaries": []
+  "energy": 6000,
+  "input": {
+    "tag": "forge:ores/inert_crystal"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "elementalcraft:inert_crystal"
+    },
+    "count": 2
+  },
+  "secondaries": []
 }

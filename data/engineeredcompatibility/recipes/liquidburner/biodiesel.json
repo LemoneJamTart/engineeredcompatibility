@@ -1,19 +1,12 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "neoforge:conditions": [
-        {
-          "type": "neoforge:mod_loaded",
-          "modid": "liquidburner"
-        }
-      ],
-      "recipe": {
-        "type": "liquidburner:liquidburning",
-        "fluid": "immersiveengineering:biodiesel",
-        "burntime": "11160",
-        "superheattime" : "0"
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "liquidburner"
     }
-  ]
+  ],
+  "type": "liquidburner:liquidburning",
+  "fluid": "immersiveengineering:biodiesel",
+  "burntime": "11160",
+  "superheattime" : "0"
 }

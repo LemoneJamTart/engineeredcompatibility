@@ -6,26 +6,33 @@
         "type": "neoforge:tag_empty",
         "tag": "forge:raw_materials/hellforged"
       }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/hellforged"
+      }
     }
   ],
   "type": "immersiveengineering:arc_furnace",
-        "additives": [],
-        "energy": 25600,
-        "input": {
-          "tag": "forge:raw_materials/hellforged"
-        },
-        "results": [
-          {
-            "tag": "forge:ingots/hellforged"
-          }
-        ],
-        "secondaries": [
-          {
-            "chance": 0.5,
-            "output": {
-              "tag": "forge:ingots/hellforged"
-            }
-          }
-        ],
-        "time": 100
+  "additives": [],
+  "energy": 25600,
+  "input": {
+    "tag": "forge:raw_materials/hellforged"
+  },
+  "results": [
+    {
+      "tag": "forge:ingots/hellforged"
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:ingots/hellforged"
+      }
+    }
+  ],
+  "time": 100
 }

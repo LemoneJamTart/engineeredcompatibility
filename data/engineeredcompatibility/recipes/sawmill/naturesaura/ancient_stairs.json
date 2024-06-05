@@ -6,19 +6,19 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": {
-          "item": "naturesaura:ancient_stairs"
-        },
-        "result": {
-          "item": "naturesaura:ancient_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
+  "energy": 1600,
+  "input": {
+    "item": "naturesaura:ancient_stairs"
+  },
+  "result": {
+    "item": "naturesaura:ancient_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ]
 }

@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "blue_skies:lunar_log"
-          },
-          {
-            "item": "blue_skies:lunar_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "blue_skies:lunar_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "blue_skies:stripped_lunar_log"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "blue_skies:lunar_log"
+    },
+    {
+      "item": "blue_skies:lunar_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "blue_skies:lunar_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "blue_skies:stripped_lunar_log"
+  }
 }

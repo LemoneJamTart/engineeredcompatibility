@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "undergarden:grongle_log"
-          },
-          {
-            "item": "undergarden:grongle_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "undergarden:grongle_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "undergarden:stripped_grongle_log"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "undergarden:grongle_log"
+    },
+    {
+      "item": "undergarden:grongle_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "undergarden:grongle_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "undergarden:stripped_grongle_log"
+  }
 }

@@ -16,15 +16,15 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 6000,
-        "input": {
-          "tag": "forge:ores/pyrope"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:gems/pyrope"
-          },
-          "count": 2
-        },
-        "secondaries": []
+  "energy": 6000,
+  "input": {
+    "tag": "forge:ores/pyrope"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:gems/pyrope"
+    },
+    "count": 2
+  },
+  "secondaries": []
 }

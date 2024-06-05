@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "aether_redux:cloudcap_stem"
-          },
-          {
-            "item": "aether_redux:cloudcap_hyphae"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "aether_redux:cloudcap_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "aether_redux:stripped_cloudcap_stem"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "aether_redux:cloudcap_stem"
+    },
+    {
+      "item": "aether_redux:cloudcap_hyphae"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "aether_redux:cloudcap_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "aether_redux:stripped_cloudcap_stem"
+  }
 }

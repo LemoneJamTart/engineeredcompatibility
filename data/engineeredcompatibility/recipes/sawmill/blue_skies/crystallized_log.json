@@ -6,25 +6,25 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "blue_skies:crystallized_log"
-          },
-          {
-            "item": "blue_skies:crystallized_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "blue_skies:crystallized_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
+  "energy": 1600,
+  "input": [
+    {
+      "item": "blue_skies:crystallized_log"
+    },
+    {
+      "item": "blue_skies:crystallized_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "blue_skies:crystallized_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ]
 }

@@ -16,22 +16,22 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 3200,
-        "input": {
-          "tag": "forge:sandstone/soul"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:sand/soul"
-          },
-          "count": 2
-        },
-        "secondaries": [
-          {
-            "chance": 0.75,
-            "output": {
-              "tag": "forge:dusts/saltpeter"
-            }
-          }
-        ]
+  "energy": 3200,
+  "input": {
+    "tag": "forge:sandstone/soul"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:sand/soul"
+    },
+    "count": 2
+  },
+  "secondaries": [
+    {
+      "chance": 0.75,
+      "output": {
+        "tag": "forge:dusts/saltpeter"
+      }
+    }
+  ]
 }

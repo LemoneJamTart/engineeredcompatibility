@@ -16,15 +16,15 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 6000,
-        "input": {
-          "tag": "forge:ores/skyjade"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:gems/skyjade"
-          },
-          "count": 2
-        },
-        "secondaries": []
+  "energy": 6000,
+  "input": {
+    "tag": "forge:ores/skyjade"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:gems/skyjade"
+    },
+    "count": 2
+  },
+  "secondaries": []
 }

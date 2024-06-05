@@ -9,12 +9,12 @@
     }
   ],
   "type": "immersiveengineering:fermenter",
-        "energy": 6400,
-        "fluid": {
-          "amount": 50,
-          "fluid": "immersiveengineering:ethanol"
-        },
-        "input": {
-          "tag": "forge:fruits/sourceberry"
-        }
+  "energy": 6400,
+  "fluid": {
+    "amount": 50,
+    "fluid": "immersiveengineering:ethanol"
+  },
+  "input": {
+    "tag": "forge:fruits/sourceberry"
+  }
 }

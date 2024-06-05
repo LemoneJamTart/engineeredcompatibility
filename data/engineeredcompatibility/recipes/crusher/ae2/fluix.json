@@ -9,15 +9,15 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 2400,
-        "input": {
-          "tag": "forge:gems/fluix"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:dusts/fluix"
-          },
-          "count": 1
-        },
-        "secondaries": [ ]
+  "energy": 2400,
+  "input": {
+    "tag": "forge:gems/fluix"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:dusts/fluix"
+    },
+    "count": 1
+  },
+  "secondaries": [ ]
 }

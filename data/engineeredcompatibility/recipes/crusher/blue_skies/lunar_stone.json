@@ -6,12 +6,12 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 2000,
-        "input": {
-          "item": "blue_skies:lunar_stone"
-        },
-        "result": {
-          "item": "blue_skies:lunar_cobblestone"
-        },
-        "secondaries": []
+  "energy": 2000,
+  "input": {
+    "item": "blue_skies:lunar_stone"
+  },
+  "result": {
+    "item": "blue_skies:lunar_cobblestone"
+  },
+  "secondaries": []
 }

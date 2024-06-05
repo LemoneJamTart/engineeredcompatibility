@@ -6,19 +6,19 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 800,
-        "input": {
-          "item": "forbidden_arcanus:edelwood_door"
-        },
-        "result": {
-          "item": "forbidden_arcanus:edelwood_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
+  "energy": 800,
+  "input": {
+    "item": "forbidden_arcanus:edelwood_door"
+  },
+  "result": {
+    "item": "forbidden_arcanus:edelwood_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ]
 }

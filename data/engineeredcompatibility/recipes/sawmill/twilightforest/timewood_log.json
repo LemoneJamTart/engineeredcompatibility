@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "twilightforest:time_log"
-          },
-          {
-            "item": "twilightforest:time_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "twilightforest:time_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "twilightforest:stripped_time_log"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "twilightforest:time_log"
+    },
+    {
+      "item": "twilightforest:time_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "twilightforest:time_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "twilightforest:stripped_time_log"
+  }
 }

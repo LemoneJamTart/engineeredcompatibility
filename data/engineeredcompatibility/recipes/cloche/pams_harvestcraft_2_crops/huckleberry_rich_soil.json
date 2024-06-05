@@ -10,24 +10,24 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "pamhc2crops:huckleberryseeditem"
-        },
-        "render": {
-          "type": "crop",
-          "block": "pamhc2crops:pamhuckleberrycrop"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "pamhc2crops:huckleberryitem"
-          },
-          {
-            "item": "pamhc2crops:huckleberryseeditem"
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 530
+  "input": {
+    "item": "pamhc2crops:huckleberryseeditem"
+  },
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pamhuckleberrycrop"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "pamhc2crops:huckleberryitem"
+    },
+    {
+      "item": "pamhc2crops:huckleberryseeditem"
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 530
 }

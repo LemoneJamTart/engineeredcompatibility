@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "midnight:manglewood_log"
-          },
-          {
-            "item": "midnight:manglewood_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "midnight:manglewood_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "midnight:stripped_manglewood_log"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "midnight:manglewood_log"
+    },
+    {
+      "item": "midnight:manglewood_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "midnight:manglewood_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "midnight:stripped_manglewood_log"
+  }
 }

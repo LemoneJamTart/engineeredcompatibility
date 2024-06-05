@@ -10,21 +10,21 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "render": {
-          "type": "crop",
-          "block": "delightful:salmonberry_bush"
-        },
-        "results": [
-          {
-            "item": "delightful:salmonberries",
-            "count": 3
-          }
-        ],
-        "input": {
-          "item": "delightful:salmonberries"
-        },
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 530
+  "render": {
+    "type": "crop",
+    "block": "delightful:salmonberry_bush"
+  },
+  "results": [
+    {
+      "item": "delightful:salmonberries",
+      "count": 3
+    }
+  ],
+  "input": {
+    "item": "delightful:salmonberries"
+  },
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 530
 }

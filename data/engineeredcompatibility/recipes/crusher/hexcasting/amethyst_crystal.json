@@ -6,22 +6,22 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 2400,
-        "input": {
-          "tag": "forge:gems/amethyst"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:dusts/amethyst"
-          },
-          "count": 4
-        },
-        "secondaries": [
-          {
-            "chance": 0.5,
-            "output": {
-              "tag": "forge:dusts/amethyst"
-            }
-          }
-        ]
+  "energy": 2400,
+  "input": {
+    "tag": "forge:gems/amethyst"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:dusts/amethyst"
+    },
+    "count": 4
+  },
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:dusts/amethyst"
+      }
+    }
+  ]
 }

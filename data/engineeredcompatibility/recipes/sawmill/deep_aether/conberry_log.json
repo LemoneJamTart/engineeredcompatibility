@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "deep_aether:conberry_log"
-          },
-          {
-            "item": "deep_aether:conberry_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "deep_aether:conberry_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "deep_aether:stripped_conberry_log"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "deep_aether:conberry_log"
+    },
+    {
+      "item": "deep_aether:conberry_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "deep_aether:conberry_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "deep_aether:stripped_conberry_log"
+  }
 }

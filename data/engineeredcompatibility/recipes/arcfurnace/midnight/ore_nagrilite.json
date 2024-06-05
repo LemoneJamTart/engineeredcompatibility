@@ -6,24 +6,31 @@
         "type": "neoforge:tag_empty",
         "tag": "forge:ores/nagrilite"
       }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/nagrilite"
+      }
     }
   ],
   "type": "immersiveengineering:arc_furnace",
-        "additives": [],
-        "energy": 102400,
-        "input": {
-          "tag": "forge:ores/nagrilite"
-        },
-        "results": [
-          {
-            "base_ingredient": {
-              "tag": "forge:ingots/nagrilite"
-            },
-            "count": 2
-          }
-        ],
-        "slag": {
-          "tag": "forge:slag"
-        },
-        "time": 200
+  "additives": [],
+  "energy": 102400,
+  "input": {
+    "tag": "forge:ores/nagrilite"
+  },
+  "results": [
+    {
+      "basePredicate": {
+        "tag": "forge:ingots/nagrilite"
+      },
+      "count": 2
+    }
+  ],
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 200
 }

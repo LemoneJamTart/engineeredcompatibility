@@ -1,39 +1,36 @@
 {
   "neoforge:conditions": [
     {
-      "type": "neoforge:not",
-      "value": {
-        "type": "neoforge:tag_empty",
-        "tag": "forge:silicon"
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
     }
   ],
   "type": "immersiveengineering:arc_furnace",
-        "additives": [
-          {
-            "base_ingredient": {
-              "tag": "forge:dusts/coal_coke"
-            },
-            "count": 3
-          }        
-        ],
-        "energy": 204800,
-        "input": {
-          "base_ingredient": {
-            "tag": "forge:sand"
-          },
-          "count": 2
-        },
-        "results": [
-          {
-            "base_ingredient": {
-              "tag": "forge:silicon"
-            },
-            "count": 2
-          }
-        ],
-        "slag": {
-          "tag": "forge:slag"
-        },
-        "time": 400
+  "additives": [
+    {
+      "basePredicate": {
+        "tag": "forge:dusts/coal_coke"
+      },
+      "count": 3
+    }        
+  ],
+  "energy": 204800,
+  "input": {
+    "basePredicate": {
+      "tag": "forge:sand"
+    },
+    "count": 2
+  },
+  "results": [
+    {
+      "basePredicate": {
+        "item": "ae2:silicon"
+      },
+      "count": 2
+    }
+  ],
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 400
 }

@@ -6,24 +6,24 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "pamhc2crops:amaranthseeditem"
-        },
-        "render": {
-          "type": "crop",
-          "block": "pamhc2crops:pamamaranthcrop"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "pamhc2crops:amaranthitem"
-          },
-          {
-            "item": "pamhc2crops:amaranthseeditem"
-          }
-        ],
-        "soil": {
-          "item": "minecraft:dirt"
-        },
-        "time": 800
+  "input": {
+    "item": "pamhc2crops:amaranthseeditem"
+  },
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pamamaranthcrop"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "pamhc2crops:amaranthitem"
+    },
+    {
+      "item": "pamhc2crops:amaranthseeditem"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
 }

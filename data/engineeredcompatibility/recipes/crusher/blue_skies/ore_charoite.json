@@ -16,15 +16,15 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 6000,
-        "input": {
-          "tag": "forge:ores/charoite"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:gems/charoite"
-          },
-          "count": 2
-        },
-        "secondaries": []
+  "energy": 6000,
+  "input": {
+    "tag": "forge:ores/charoite"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:gems/charoite"
+    },
+    "count": 2
+  },
+  "secondaries": []
 }

@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "blue_skies:frostbright_log"
-          },
-          {
-            "item": "blue_skies:frostbright_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "blue_skies:frostbright_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "blue_skies:stripped_frostbright_log"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "blue_skies:frostbright_log"
+    },
+    {
+      "item": "blue_skies:frostbright_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "blue_skies:frostbright_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "blue_skies:stripped_frostbright_log"
+  }
 }

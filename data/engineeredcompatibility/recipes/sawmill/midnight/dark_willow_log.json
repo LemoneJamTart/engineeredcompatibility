@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "midnight:dark_willow_log"
-          },
-          {
-            "item": "midnight:dark_willow_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "midnight:dark_willow_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "midnight:stripped_dark_willow_log"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "midnight:dark_willow_log"
+    },
+    {
+      "item": "midnight:dark_willow_wood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "midnight:dark_willow_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "midnight:stripped_dark_willow_log"
+  }
 }

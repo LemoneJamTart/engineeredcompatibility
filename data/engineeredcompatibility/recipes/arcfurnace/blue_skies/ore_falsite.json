@@ -6,24 +6,31 @@
         "type": "neoforge:tag_empty",
         "tag": "forge:ores/falsite"
       }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/falsite"
+      }
     }
   ],
   "type": "immersiveengineering:arc_furnace",
-        "additives": [],
-        "energy": 102400,
-        "input": {
-          "tag": "forge:ores/falsite"
-        },
-        "results": [
-          {
-            "base_ingredient": {
-              "tag": "forge:ingots/falsite"
-            },
-            "count": 2
-          }
-        ],
-        "slag": {
-          "tag": "forge:slag"
-        },
-        "time": 200
+  "additives": [],
+  "energy": 102400,
+  "input": {
+    "tag": "forge:ores/falsite"
+  },
+  "results": [
+    {
+      "basePredicate": {
+        "tag": "forge:ingots/falsite"
+      },
+      "count": 2
+    }
+  ],
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 200
 }

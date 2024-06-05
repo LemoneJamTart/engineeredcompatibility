@@ -10,24 +10,24 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "pamhc2crops:peanutseeditem"
-        },
-        "render": {
-          "type": "crop",
-          "block": "pamhc2crops:pampeanutcrop"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "pamhc2crops:peanutitem"
-          },
-          {
-            "item": "pamhc2crops:peanutseeditem"
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 530
+  "input": {
+    "item": "pamhc2crops:peanutseeditem"
+  },
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pampeanutcrop"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "pamhc2crops:peanutitem"
+    },
+    {
+      "item": "pamhc2crops:peanutseeditem"
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 530
 }

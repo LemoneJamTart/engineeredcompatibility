@@ -16,22 +16,22 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 3200,
-        "input": {
-          "tag": "forge:sandstone/crystal"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:sand/crystal"
-          },
-          "count": 2
-        },
-        "secondaries": [
-          {
-            "chance": 0.5,
-            "output": {
-              "tag": "forge:dusts/saltpeter"
-            }
-          }
-        ]
+  "energy": 3200,
+  "input": {
+    "tag": "forge:sandstone/crystal"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:sand/crystal"
+    },
+    "count": 2
+  },
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:dusts/saltpeter"
+      }
+    }
+  ]
 }

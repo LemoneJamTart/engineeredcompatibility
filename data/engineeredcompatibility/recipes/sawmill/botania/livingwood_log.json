@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "botania:livingwood_log"
-          },
-          {
-            "item": "botania:livingwood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "botania:livingwood_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "botania:stripped_livingwood_log"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "botania:livingwood_log"
+    },
+    {
+      "item": "botania:livingwood"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "botania:livingwood_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "botania:stripped_livingwood_log"
+  }
 }

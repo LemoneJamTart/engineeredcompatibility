@@ -10,20 +10,20 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "botania:gray_petal"
-        },
-        "render": {
-          "type": "generic",
-          "block": "botania:gray_mystical_flower"
-        },
-        "results": [
-          {
-            "item": "botania:gray_petal"
-          }
-        ],
-        "soil":{
-          "item":"farmersdelight:rich_soil"
-        },
-        "time":320
+  "input": {
+    "item": "botania:gray_petal"
+  },
+  "render": {
+    "type": "generic",
+    "block": "botania:gray_mystical_flower"
+  },
+  "results": [
+    {
+      "item": "botania:gray_petal"
+    }
+  ],
+  "soil":{
+    "item":"farmersdelight:rich_soil"
+  },
+  "time":320
 }

@@ -6,15 +6,15 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 1600,
-        "input": {
-          "tag": "forge:netherrack"
-        },
-        "result": {
-          "base_ingredient": {
-            "item": "create:cinder_flour"
-          },
-          "count": 1
-        },
-        "secondaries": []
+  "energy": 1600,
+  "input": {
+    "tag": "forge:netherrack"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "create:cinder_flour"
+    },
+    "count": 1
+  },
+  "secondaries": []
 }

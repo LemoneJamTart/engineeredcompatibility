@@ -9,15 +9,15 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 2400,
-        "input": {
-          "tag": "forge:gems/certus_quartz"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:dusts/certus_quartz"
-          },
-          "count": 1
-        },
-        "secondaries": [ ]
+  "energy": 2400,
+  "input": {
+    "tag": "forge:gems/certus_quartz"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:dusts/certus_quartz"
+    },
+    "count": 1
+  },
+  "secondaries": [ ]
 }

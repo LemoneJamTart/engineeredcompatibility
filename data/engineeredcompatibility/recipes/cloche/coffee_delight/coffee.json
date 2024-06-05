@@ -6,21 +6,21 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "coffee_delight:coffee_berries"
-        },
-        "render": {
-          "type": "crop",
-          "block": "coffee_delight:coffee_bush"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "coffee_delight:coffee_berries"
-          }
-        ],
-        "soil": {
-          "item": "minecraft:dirt"
-        },
-        "time": 560
+  "input": {
+    "item": "coffee_delight:coffee_berries"
+  },
+  "render": {
+    "type": "crop",
+    "block": "coffee_delight:coffee_bush"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "coffee_delight:coffee_berries"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 560
 }

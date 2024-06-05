@@ -6,34 +6,34 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "eidolon:illwood_log"
-          },
-          {
-            "item": "eidolon:illwood_bark"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "eidolon:illwood_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "eidolon:stripped_illwood_log"
-        }
+  "energy": 1600,
+  "input": [
+    {
+      "item": "eidolon:illwood_log"
+    },
+    {
+      "item": "eidolon:illwood_bark"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "eidolon:illwood_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": true
+    },
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ],
+  "stripped": {
+    "item": "eidolon:stripped_illwood_log"
+  }
 }

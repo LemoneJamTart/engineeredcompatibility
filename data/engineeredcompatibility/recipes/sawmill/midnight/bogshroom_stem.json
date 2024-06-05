@@ -6,22 +6,22 @@
     }
   ],
   "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "midnight:bogshroom_stem"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "midnight:bogshroom_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
+  "energy": 1600,
+  "input": [
+    {
+      "item": "midnight:bogshroom_stem"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "midnight:bogshroom_planks"
+  },
+  "secondaries": [
+    {
+      "output": {
+        "tag": "forge:dusts/wood"
+      },
+      "stripping": false
+    }
+  ]
 }

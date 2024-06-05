@@ -16,15 +16,15 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 6000,
-        "input": {
-          "tag": "forge:ores/diopside"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:gems/diopside"
-          },
-          "count": 2
-        },
-        "secondaries": []
+  "energy": 6000,
+  "input": {
+    "tag": "forge:ores/diopside"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:gems/diopside"
+    },
+    "count": 2
+  },
+  "secondaries": []
 }

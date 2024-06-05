@@ -6,21 +6,21 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "minecraft:melon_seeds"
-        },
-        "render": {
-          "type": "stem",
-          "block": "minecraft:melon"
-        },
-        "results": [
-          {
-            "item": "minecraft:melon",
-            "count": 1
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 530
+  "input": {
+    "item": "minecraft:melon_seeds"
+  },
+  "render": {
+    "type": "stem",
+    "block": "minecraft:melon"
+  },
+  "results": [
+    {
+      "item": "minecraft:melon",
+      "count": 1
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 530
 }

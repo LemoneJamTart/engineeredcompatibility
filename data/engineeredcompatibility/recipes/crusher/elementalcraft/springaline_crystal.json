@@ -9,15 +9,15 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 3200,
-        "input": {
-          "tag": "forge:storage_blocks/springaline"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:gems/springaline"
-          },
-          "count": 4
-        },
-        "secondaries": [ ]
+  "energy": 3200,
+  "input": {
+    "tag": "forge:storage_blocks/springaline"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:gems/springaline"
+    },
+    "count": 4
+  },
+  "secondaries": [ ]
 }

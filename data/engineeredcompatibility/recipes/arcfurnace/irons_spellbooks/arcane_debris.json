@@ -6,19 +6,19 @@
     }
   ],
   "type": "immersiveengineering:arc_furnace",
-        "additives": [],
-        "energy": 512000,
-        "input": {
-          "item": "irons_spellbooks:arcane_debris"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "irons_spellbooks:arcane_salvage"
-          }
-        ],
-        "slag": {
-          "tag": "forge:slag"
-        },
-        "time": 100
+  "additives": [],
+  "energy": 512000,
+  "input": {
+    "item": "irons_spellbooks:arcane_debris"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "irons_spellbooks:arcane_salvage"
+    }
+  ],
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 100
 }

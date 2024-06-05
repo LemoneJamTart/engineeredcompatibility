@@ -6,22 +6,22 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "quark:glow_shroom"
-        },
-        "render": {
-          "type": "generic",
-          "block": "quark:glow_shroom"
-        },
-        "results": [
-          {
-            "item": "quark:glow_shroom"
-          }
-        ],
-        "soil": [
-          {
-            "item": "minecraft:deepslate"
-          }
-        ],
-        "time": 480
+  "input": {
+    "item": "quark:glow_shroom"
+  },
+  "render": {
+    "type": "generic",
+    "block": "quark:glow_shroom"
+  },
+  "results": [
+    {
+      "item": "quark:glow_shroom"
+    }
+  ],
+  "soil": [
+    {
+      "item": "minecraft:deepslate"
+    }
+  ],
+  "time": 480
 }

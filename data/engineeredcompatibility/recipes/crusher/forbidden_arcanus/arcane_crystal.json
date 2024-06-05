@@ -16,21 +16,21 @@
     }
   ],
   "type": "immersiveengineering:crusher",
-        "energy": 2400,
-        "input": {
-          "tag": "forge:gems/arcane_crystal"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:dusts/arcane_crystal"
-          }
-        },
-        "secondaries": [
-          {
-            "chance": 0.125,
-            "output": {
-              "tag": "forge:dusts/arcane_crystal"
-            }
-          }
-        ]
+  "energy": 2400,
+  "input": {
+    "tag": "forge:gems/arcane_crystal"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:dusts/arcane_crystal"
+    }
+  },
+  "secondaries": [
+    {
+      "chance": 0.125,
+      "output": {
+        "tag": "forge:dusts/arcane_crystal"
+      }
+    }
+  ]
 }

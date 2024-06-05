@@ -10,24 +10,24 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "pamhc2crops:mustardseedsseeditem"
-        },
-        "render": {
-          "type": "crop",
-          "block": "pamhc2crops:pammustardseedscrop"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "pamhc2crops:mustardseedsitem"
-          },
-          {
-            "item": "pamhc2crops:mustardseedsseeditem"
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 530
+  "input": {
+    "item": "pamhc2crops:mustardseedsseeditem"
+  },
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pammustardseedscrop"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "pamhc2crops:mustardseedsitem"
+    },
+    {
+      "item": "pamhc2crops:mustardseedsseeditem"
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 530
 }

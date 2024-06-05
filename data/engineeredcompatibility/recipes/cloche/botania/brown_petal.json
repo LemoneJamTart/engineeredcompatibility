@@ -6,20 +6,20 @@
     }
   ],
   "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "botania:brown_petal"
-        },
-        "render": {
-          "type": "generic",
-          "block": "botania:brown_mystical_flower"
-        },
-        "results": [
-          {
-            "item": "botania:brown_petal"
-          }
-        ],
-        "soil":{
-          "item":"minecraft:dirt"
-        },
-        "time":480
+  "input": {
+    "item": "botania:brown_petal"
+  },
+  "render": {
+    "type": "generic",
+    "block": "botania:brown_mystical_flower"
+  },
+  "results": [
+    {
+      "item": "botania:brown_petal"
+    }
+  ],
+  "soil":{
+    "item":"minecraft:dirt"
+  },
+  "time":480
 }
