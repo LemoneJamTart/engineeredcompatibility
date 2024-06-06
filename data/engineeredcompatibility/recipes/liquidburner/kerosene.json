@@ -10,7 +10,7 @@
     }
   ],
   "type": "liquidburner:liquidburning",
-  "fluid": "immersivepetroleum:kerosene",
+  "FluidName": "immersivepetroleum:kerosene",
   "burntime": "12492",
   "superheattime" : "0"
 }

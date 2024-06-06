@@ -8,8 +8,8 @@
   "type": "immersiveengineering:fermenter",
   "energy": 6400,
   "fluid": {
-    "amount": 90,
-    "fluid": "immersiveengineering:ethanol"
+    "Amount": 90,
+    "FluidName": "immersiveengineering:ethanol"
   },
   "input": {
     "item": "aether:enchanted_berry"

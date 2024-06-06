@@ -8,8 +8,8 @@
   "type": "immersiveengineering:fermenter",
   "energy": 6400,
   "fluid": {
-    "amount": 160,
-    "fluid": "immersiveengineering:ethanol"
+    "Amount": 160,
+    "FluidName": "immersiveengineering:ethanol"
   },
   "input": {
     "item": "quark:ancient_fruit"

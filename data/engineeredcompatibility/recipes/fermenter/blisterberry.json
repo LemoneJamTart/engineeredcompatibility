@@ -8,8 +8,8 @@
   "type": "immersiveengineering:fermenter",
   "energy": 6400,
   "fluid": {
-    "amount": 50,
-    "fluid": "immersiveengineering:ethanol"
+    "Amount": 50,
+    "FluidName": "immersiveengineering:ethanol"
   },
   "input": {
     "item": "undergarden:blisterberry"

@@ -8,8 +8,8 @@
   "type": "immersiveengineering:squeezer",
   "energy": 6400,
   "fluid": {
-    "amount": 40,
-    "fluid": "immersiveengineering:plant_oil"
+    "Amount": 40,
+    "FluidName": "immersiveengineering:plantoil"
   },
   "input": {
     "item": "undergarden:gloomgourd_seeds"

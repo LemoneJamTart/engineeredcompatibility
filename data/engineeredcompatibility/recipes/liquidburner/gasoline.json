@@ -10,7 +10,7 @@
     }
   ],
   "type": "liquidburner:liquidburning",
-  "fluid": "immersivepetroleum:gasoline",
+  "FluidName": "immersivepetroleum:gasoline",
   "burntime": "12240",
   "superheattime" : "0"
 }

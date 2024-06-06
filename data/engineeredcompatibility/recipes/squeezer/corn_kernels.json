@@ -18,10 +18,12 @@
   "type": "immersiveengineering:squeezer",
   "energy": 6400,
   "fluid": {
-    "amount": 60,
-    "fluid": "immersiveengineering:plantoil"
+    "Amount": 60,
+    "FluidName": "immersiveengineering:plantoil"
   },
   "input": {
-    "tag": "forge:seeds/corn"
+    "basePredicate": {
+      "tag": "forge:seeds/corn"
+    }
   }
 }

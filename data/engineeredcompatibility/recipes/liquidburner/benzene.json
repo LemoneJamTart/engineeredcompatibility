@@ -10,7 +10,7 @@
     }
   ],
   "type": "liquidburner:liquidburning",
-  "fluid": "immersivepetroleum:benzene",
+  "FluidName": "immersivepetroleum:benzene",
   "burntime": "12672",
   "superheattime" : "0"
 }

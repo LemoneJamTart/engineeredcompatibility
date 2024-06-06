@@ -8,8 +8,8 @@
   "type": "immersiveengineering:fermenter",
   "energy": 6400,
   "fluid": {
-    "amount": 80,
-    "fluid": "immersiveengineering:ethanol"
+    "Amount": 80,
+    "FluidName": "immersiveengineering:ethanol"
   },
   "input": {
     "item": "deep_aether:goldenleaf_berries"

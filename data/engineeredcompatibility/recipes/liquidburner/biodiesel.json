@@ -6,7 +6,7 @@
     }
   ],
   "type": "liquidburner:liquidburning",
-  "fluid": "immersiveengineering:biodiesel",
+  "FluidName": "immersiveengineering:biodiesel",
   "burntime": "11160",
   "superheattime" : "0"
 }

@@ -10,7 +10,7 @@
     }
   ],
   "type": "liquidburner:liquidburning",
-  "fluid": "immersivepetroleum:napalm",
+  "FluidName": "immersivepetroleum:napalm",
   "burntime": "0",
   "superheattime" : "24480"
 }

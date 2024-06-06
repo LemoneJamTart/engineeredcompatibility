@@ -11,10 +11,12 @@
   "type": "immersiveengineering:fermenter",
   "energy": 6400,
   "fluid": {
-    "amount": 60,
-    "fluid": "immersiveengineering:ethanol"
+    "Amount": 60,
+    "FluidName": "immersiveengineering:ethanol"
   },
   "input": {
-    "tag": "forge:fruits/blackcurrant"
+    "basePredicate": {
+      "tag": "forge:fruits/blackcurrant"
+    }
   }
 }

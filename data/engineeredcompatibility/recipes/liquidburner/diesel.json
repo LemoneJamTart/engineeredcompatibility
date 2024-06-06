@@ -10,7 +10,7 @@
     }
   ],
   "type": "liquidburner:liquidburning",
-  "fluid": "immersivepetroleum:diesel",
+  "FluidName": "immersivepetroleum:diesel",
   "burntime": "14310",
   "superheattime" : "0"
 }
