@@ -1,0 +1,70 @@
+{
+  "remove": [
+    {
+      "id": "#forge:storage_blocks/certus_quartz",
+      "required": false
+    },
+    {
+      "id": "blue_skies:moonstone_block",
+      "required": false
+    },
+    {
+      "id": "blue_skies:pyrope_block",
+      "required": false
+    },
+    {
+      "id": "blue_skies:aquite_block",
+      "required": false
+    },
+    {
+      "id": "blue_skies:diopside_block",
+      "required": false
+    },
+    {
+      "id": "blue_skies:charoite_block",
+      "required": false
+    },
+    {
+      "id": "twilightforest:carminite_block",
+      "required": false
+    },
+    {
+      "id": "aether:ambrosium_block",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_block",
+      "required": false
+    }
+  ],
+  "values": [
+    {
+      "id": "twilightforest:candelabra",
+      "required": false
+    },
+    {
+      "id": "twilightforest:wrought_iron_fence",
+      "required": false
+    },
+    {
+      "id": "twilightforest:iron_ladder",
+      "required": false
+    },
+    {
+      "id": "undergarden:cloggrum_bars",
+      "required": false
+    },
+    {
+      "id": "undergarden:cloggrum_tiles",
+      "required": false
+    },
+    {
+      "id": "undergarden:cloggrum_tile_slab",
+      "required": false
+    },
+    {
+      "id": "undergarden:cloggrum_tile_stairs",
+      "required": false
+    }
+  ]
+}
