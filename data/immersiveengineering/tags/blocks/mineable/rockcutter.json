@@ -1,0 +1,84 @@
+{
+  "values": [
+    {
+      "id": "ae2:small_quartz_bud",
+      "required": false
+    },
+    {
+      "id": "ae2:medium_quartz_bud",
+      "required": false
+    },
+    {
+      "id": "ae2:large_quartz_bud",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_cluster",
+      "required": false
+    },
+    {
+      "id": "ae2:quartz_block",
+      "required": false
+    },
+    {
+      "id": "ae2:damaged_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:chipped_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:flawed_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:flawless_budding_quartz",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_block",
+      "required": false
+    },
+    {
+      "id": "ae2:sky_stone_block",
+      "required": false
+    },
+    {
+      "id": "elementalcraft:small_springaline_bud",
+      "required": false
+    },
+    {
+      "id": "elementalcraft:medium_springaline_bud",
+      "required": false
+    },
+    {
+      "id": "elementalcraft:large_springaline_bud",
+      "required": false
+    },
+    {
+      "id": "elementalcraft:springaline_cluster",
+      "required": false
+    },
+    {
+      "id": "elementalcraft:springaline_block",
+      "required": false
+    },
+    {
+      "id": "elementalcraft:springaline_glass",
+      "required": false
+    },
+    {
+      "id": "elementalcraft:springaline_glass_pane",
+      "required": false
+    },
+    {
+      "id": "elementalcraft:burnt_glass",
+      "required": false
+    },
+    {
+      "id": "elementalcraft:burnt_glass_pane",
+      "required": false
+    }
+  ]
+}
