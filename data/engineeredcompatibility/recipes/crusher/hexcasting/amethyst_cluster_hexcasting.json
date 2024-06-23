@@ -8,20 +8,27 @@
   "type": "immersiveengineering:crusher",
   "energy": 2400,
   "input": {
-    "tag": "forge:gems/amethyst"
+    "tag": "forge:clusters/amethyst"
   },
   "result": {
     "basePredicate": {
-      "tag": "forge:dusts/amethyst"
+      "tag": "forge:gems/amethyst"
     },
-    "count": 4
+    "count": 8
   },
   "secondaries": [
     {
-      "chance": 0.5,
+      "chance": 0.9,
       "conditions": [],
       "output": {
         "tag": "forge:dusts/amethyst"
+      }
+    },
+    {
+      "chance": 0.25,
+      "conditions": [],
+      "output": {
+        "tag": "forge:gems/charged_amethyst"
       }
     }
   ]
