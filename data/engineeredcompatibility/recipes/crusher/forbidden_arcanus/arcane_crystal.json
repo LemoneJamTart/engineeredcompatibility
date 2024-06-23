@@ -28,6 +28,7 @@
   "secondaries": [
     {
       "chance": 0.125,
+      "conditions": [],
       "output": {
         "tag": "forge:dusts/arcane_crystal"
       }

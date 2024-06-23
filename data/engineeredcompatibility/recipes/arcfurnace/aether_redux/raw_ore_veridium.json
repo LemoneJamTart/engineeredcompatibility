@@ -29,6 +29,7 @@
   "secondaries": [
     {
       "chance": 0.5,
+      "conditions": [],
       "output": {
         "tag": "forge:ingots/veridium"
       }

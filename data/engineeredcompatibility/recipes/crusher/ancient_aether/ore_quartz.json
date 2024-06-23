@@ -19,6 +19,7 @@
   "secondaries": [
     {
       "chance": 0.25,
+      "conditions": [],
       "output": {
         "tag": "forge:gems/ambrosium"
       }
