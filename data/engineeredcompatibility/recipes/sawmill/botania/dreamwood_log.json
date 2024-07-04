@@ -19,21 +19,10 @@
     "count": 6,
     "item": "botania:dreamwood_planks"
   },
-  "secondaries": [
+  "secondaryOutputs": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": true
-    },
-    {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
+       "tag": "forge:dusts/wood"
     }
   ],
-  "stripped": {
-    "item": "botania:stripped_dreamwood_log"
-  }
+  "strippingSecondaries": []
 }

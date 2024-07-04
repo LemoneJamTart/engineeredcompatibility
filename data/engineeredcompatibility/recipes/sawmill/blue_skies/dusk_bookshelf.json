@@ -15,19 +15,10 @@
     "count": 4,
     "item": "blue_skies:dusk_planks"
   },
-  "secondaries": [
+  "secondaryOutputs": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
-    },
-    {
-      "output": {
-        "count": 3,
-        "item": "minecraft:book"
-      },
-      "stripping": false
+       "tag": "forge:dusts/wood"
     }
-  ]
+  ],
+  "strippingSecondaries": []
 }

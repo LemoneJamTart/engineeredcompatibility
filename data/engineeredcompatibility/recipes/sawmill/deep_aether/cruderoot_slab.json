@@ -14,12 +14,10 @@
     "count": 2,
     "item": "deep_aether:cruderoot_slab"
   },
-  "secondaries": [
+  "secondaryOutputs": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
+       "tag": "forge:dusts/wood"
     }
-  ]
+  ],
+  "strippingSecondaries": []
 }

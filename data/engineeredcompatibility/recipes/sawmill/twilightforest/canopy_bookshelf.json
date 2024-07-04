@@ -19,19 +19,10 @@
     "count": 4,
     "item": "twilightforest:canopy_planks"
   },
-  "secondaries": [
+  "secondaryOutputs": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
-    },
-    {
-      "output": {
-        "count": 2,
-        "item": "minecraft:book"
-      },
-      "stripping": false
+       "tag": "forge:dusts/wood"
     }
-  ]
+  ],
+  "strippingSecondaries": []
 }

@@ -16,12 +16,10 @@
     "count": 6,
     "item": "midnight:viridshroom_planks"
   },
-  "secondaries": [
+  "secondaryOutputs": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
+       "tag": "forge:dusts/wood"
     }
-  ]
+  ],
+  "strippingSecondaries": []
 }

@@ -19,21 +19,10 @@
     "count": 6,
     "item": "blue_skies:bluebright_planks"
   },
-  "secondaries": [
+  "secondaryOutputs": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": true
-    },
-    {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
+       "tag": "forge:dusts/wood"
     }
   ],
-  "stripped": {
-    "item": "blue_skies:stripped_bluebright_log"
-  }
+  "strippingSecondaries": []
 }

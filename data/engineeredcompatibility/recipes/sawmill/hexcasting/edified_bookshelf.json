@@ -19,19 +19,10 @@
     "count": 4,
     "item": "hexcasting:edified_planks"
   },
-  "secondaries": [
+  "secondaryOutputs": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
-    },
-    {
-      "output": {
-        "count": 3,
-        "item": "minecraft:book"
-      },
-      "stripping": false
+       "tag": "forge:dusts/wood"
     }
-  ]
+  ],
+  "strippingSecondaries": []
 }

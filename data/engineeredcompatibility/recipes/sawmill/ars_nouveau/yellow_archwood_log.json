@@ -23,21 +23,10 @@
     "count": 6,
     "item": "ars_nouveau:archwood_planks"
   },
-  "secondaries": [
+  "secondaryOutputs": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": true
-    },
-    {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
+       "tag": "forge:dusts/wood"
     }
   ],
-  "stripped": {
-    "item": "ars_elemental:stripped_yellow_archwood_log"
-  }
+  "strippingSecondaries": []
 }

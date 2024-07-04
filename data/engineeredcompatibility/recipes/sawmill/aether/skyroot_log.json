@@ -19,21 +19,10 @@
     "count": 6,
     "item": "aether:skyroot_planks"
   },
-  "secondaries": [
+  "secondaryOutputs": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": true
-    },
-    {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
+       "tag": "forge:dusts/wood"
     }
   ],
-  "stripped": {
-    "item": "aether:stripped_skyroot_log"
-  }
+  "strippingSecondaries": []
 }

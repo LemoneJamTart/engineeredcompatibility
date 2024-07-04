@@ -19,21 +19,10 @@
     "count": 6,
     "item": "undergarden:grongle_planks"
   },
-  "secondaries": [
+  "secondaryOutputs": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": true
-    },
-    {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
+       "tag": "forge:dusts/wood"
     }
   ],
-  "stripped": {
-    "item": "undergarden:stripped_grongle_log"
-  }
+  "strippingSecondaries": []
 }

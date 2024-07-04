@@ -19,21 +19,10 @@
     "count": 6,
     "item": "deep_aether:conberry_planks"
   },
-  "secondaries": [
+  "secondaryOutputs": [
     {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": true
-    },
-    {
-      "output": {
-        "tag": "forge:dusts/wood"
-      },
-      "stripping": false
+       "tag": "forge:dusts/wood"
     }
   ],
-  "stripped": {
-    "item": "deep_aether:stripped_conberry_log"
-  }
+  "strippingSecondaries": []
 }
