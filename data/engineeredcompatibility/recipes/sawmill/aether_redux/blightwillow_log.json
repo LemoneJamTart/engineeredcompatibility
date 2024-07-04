@@ -27,5 +27,9 @@
        "tag": "forge:dusts/wood"
     }
   ],
-  "strippingSecondaries": []
+  "strippingSecondaries": [
+    {
+       "tag": "forge:dusts/wood"
+    }
+  ]
 }
