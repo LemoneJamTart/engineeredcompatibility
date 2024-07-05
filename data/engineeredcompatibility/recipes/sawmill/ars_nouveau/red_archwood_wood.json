@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": [
+    {
+      "item": "ars_nouveau:red_archwood_wood"
+    }
+  ],
+  "result": {
+    "basePredicate": {
+      "item": "ars_nouveau:archwood_planks"
+    },
+    "count": 6
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "forge:dusts/wood"
+    }
+  ],
+  "stripped": {
+    "item": "ars_nouveau:stripped_red_archwood_wood"
+  },
+  "strippingSecondaries": [
+    {
+      "tag": "forge:dusts/wood"
+    }
+  ]
+}
