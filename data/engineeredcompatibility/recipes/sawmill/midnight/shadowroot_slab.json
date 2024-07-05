@@ -11,12 +11,14 @@
     "item": "midnight:shadowroot_planks"
   },
   "result": {
-    "count": 2,
-    "item": "midnight:shadowroot_slab"
+    "basePredicate": {
+      "item": "midnight:shadowroot_slab"
+    },
+    "count": 2
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
   "strippingSecondaries": []

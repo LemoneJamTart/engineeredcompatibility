@@ -11,12 +11,14 @@
     "item": "twilightforest:time_planks"
   },
   "result": {
-    "count": 2,
-    "item": "twilightforest:time_slab"
+    "basePredicate": {
+      "item": "twilightforest:time_slab"
+    },
+    "count": 2
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
   "strippingSecondaries": []

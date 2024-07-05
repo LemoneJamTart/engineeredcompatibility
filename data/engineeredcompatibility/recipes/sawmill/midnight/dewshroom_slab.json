@@ -11,12 +11,14 @@
     "item": "midnight:dewshroom_planks"
   },
   "result": {
-    "count": 2,
-    "item": "midnight:dewshroom_slab"
+    "basePredicate": {
+      "item": "midnight:dewshroom_slab"
+    },
+    "count": 2
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
   "strippingSecondaries": []

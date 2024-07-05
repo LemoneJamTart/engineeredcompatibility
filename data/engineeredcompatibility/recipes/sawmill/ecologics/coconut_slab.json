@@ -11,12 +11,14 @@
     "item": "ecologics:coconut_planks"
   },
   "result": {
-    "count": 2,
-    "item": "ecologics:coconut_slab"
+    "basePredicate": {
+      "item": "ecologics:coconut_slab"
+    },
+    "count": 2
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
   "strippingSecondaries": []

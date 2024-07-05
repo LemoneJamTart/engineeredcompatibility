@@ -11,12 +11,14 @@
     "item": "ars_nouveau:archwood_planks"
   },
   "result": {
-    "count": 2,
-    "item": "ars_nouveau:archwood_slab"
+    "basePredicate": {
+      "item": "ars_nouveau:archwood_slab"
+    },
+    "count": 2
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
   "strippingSecondaries": []

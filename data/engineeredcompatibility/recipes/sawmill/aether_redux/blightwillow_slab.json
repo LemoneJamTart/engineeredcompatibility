@@ -11,12 +11,14 @@
     "item": "aether_redux:blightwillow_planks"
   },
   "result": {
-    "count": 2,
-    "item": "aether_redux:blightwillow_slab"
+    "basePredicate": {
+      "item": "aether_redux:blightwillow_slab"
+    },
+    "count": 2
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
   "strippingSecondaries": []

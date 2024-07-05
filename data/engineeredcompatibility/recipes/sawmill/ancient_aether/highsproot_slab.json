@@ -11,12 +11,14 @@
     "item": "ancient_aether:highsproot_planks"
   },
   "result": {
-    "count": 2,
-    "item": "ancient_aether:highsproot_slab"
+    "basePredicate": {
+      "item": "ancient_aether:highsproot_slab"
+    },
+    "count": 2
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
   "strippingSecondaries": []

@@ -11,12 +11,14 @@
     "item": "midnight:dark_willow_planks"
   },
   "result": {
-    "count": 2,
-    "item": "midnight:dark_willow_slab"
+    "basePredicate": {
+      "item": "midnight:dark_willow_slab"
+    },
+    "count": 2
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
   "strippingSecondaries": []

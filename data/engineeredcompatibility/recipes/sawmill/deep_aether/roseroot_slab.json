@@ -11,12 +11,14 @@
     "item": "deep_aether:roseroot_planks"
   },
   "result": {
-    "count": 2,
-    "item": "deep_aether:roseroot_slab"
+    "basePredicate": {
+      "item": "deep_aether:roseroot_slab"
+    },
+    "count": 2
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
   "strippingSecondaries": []

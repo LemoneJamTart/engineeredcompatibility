@@ -11,12 +11,14 @@
     "item": "midnight:moonshroom_planks"
   },
   "result": {
-    "count": 2,
-    "item": "midnight:moonshroom_slab"
+    "basePredicate": {
+      "item": "midnight:moonshroom_slab"
+    },
+    "count": 2
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
   "strippingSecondaries": []

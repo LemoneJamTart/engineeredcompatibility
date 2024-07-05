@@ -11,12 +11,14 @@
     "item": "aether:skyroot_planks"
   },
   "result": {
-    "count": 2,
-    "item": "aether:skyroot_slab"
+    "basePredicate": {
+      "item": "aether:skyroot_slab"
+    },
+    "count": 2
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
   "strippingSecondaries": []

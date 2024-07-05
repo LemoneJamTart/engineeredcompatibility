@@ -11,12 +11,14 @@
     "item": "undergarden:wigglewood_planks"
   },
   "result": {
-    "count": 2,
-    "item": "undergarden:wigglewood_slab"
+    "basePredicate": {
+      "item": "undergarden:wigglewood_slab"
+    },
+    "count": 2
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
   "strippingSecondaries": []
