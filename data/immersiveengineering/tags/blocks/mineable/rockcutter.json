@@ -45,6 +45,58 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:small_rose_quartz_bud",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:medium_rose_quartz_bud",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:large_rose_quartz_bud",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:rose_quartz_cluster",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:rose_quartz_block",
+      "required": false
+    },
+     {
+      "id": "biomesoplenty:brimstone_bud",
+      "required": false
+    },
+     {
+      "id": "biomesoplenty:brimstone_cluster",
+      "required": false
+    },
+     {
+      "id": "biomesoplenty:brimstone_fumarole",
+      "required": false
+    },
+     {
+      "id": "biomesoplenty:brimstone",
+      "required": false
+    },
+     {
+      "id": "biomesoplenty:thermal_calcite",
+      "required": false
+    },
+     {
+      "id": "biomesoplenty:thermal_calcite_vent",
+      "required": false
+    },
+     {
+      "id": "biomesoplenty:algal_end_stone",
+      "required": false
+    },
+     {
+      "id": "biomesoplenty:dried_salt",
+      "required": false
+    },
+    {
       "id": "elementalcraft:small_springaline_bud",
       "required": false
     },
