@@ -10,23 +10,25 @@
   "input": [
     {
       "item": "forbidden_arcanus:aurum_log"
-    },
-    {
-      "item": "forbidden_arcanus:aurum_wood"
     }
   ],
   "result": {
-    "count": 6,
-    "item": "forbidden_arcanus:aurum_planks"
+    "basePredicate": {
+      "item": "forbidden_arcanus:aurum_planks"
+    },
+    "count": 6
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
+  "stripped": {
+    "item": "forbidden_arcanus:stripped_aurum_log"
+  },
   "strippingSecondaries": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ]
 }

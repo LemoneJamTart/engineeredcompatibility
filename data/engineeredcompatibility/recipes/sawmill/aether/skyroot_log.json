@@ -10,23 +10,25 @@
   "input": [
     {
       "item": "aether:skyroot_log"
-    },
-    {
-      "item": "aether:skyroot_wood"
     }
   ],
   "result": {
-    "count": 6,
-    "item": "aether:skyroot_planks"
+    "basePredicate": {
+      "item": "aether:skyroot_planks"
+    },
+    "count": 6
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
+  "stripped": {
+    "item": "aether:stripped_skyroot_log"
+  },
   "strippingSecondaries": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ]
 }

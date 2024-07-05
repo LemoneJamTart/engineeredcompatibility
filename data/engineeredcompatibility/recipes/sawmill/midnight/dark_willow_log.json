@@ -10,23 +10,25 @@
   "input": [
     {
       "item": "midnight:dark_willow_log"
-    },
-    {
-      "item": "midnight:dark_willow_wood"
     }
   ],
   "result": {
-    "count": 6,
-    "item": "midnight:dark_willow_planks"
+    "basePredicate": {
+      "item": "midnight:dark_willow_planks"
+    },
+    "count": 6
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
+  "stripped": {
+    "item": "midnight:stripped_dark_willow_log"
+  },
   "strippingSecondaries": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ]
 }

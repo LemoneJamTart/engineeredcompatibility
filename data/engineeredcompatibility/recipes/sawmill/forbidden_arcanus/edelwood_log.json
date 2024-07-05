@@ -13,17 +13,15 @@
     }
   ],
   "result": {
-    "count": 3,
-    "item": "forbidden_arcanus:edelwood_planks"
+    "basePredicate": {
+      "item": "forbidden_arcanus:edelwood_planks"
+    },
+    "count": 3
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
-  "strippingSecondaries": [
-    {
-       "tag": "forge:dusts/wood"
-    }
-  ]
+  "strippingSecondaries": []
 }

@@ -10,23 +10,25 @@
   "input": [
     {
       "item": "midnight:manglewood_log"
-    },
-    {
-      "item": "midnight:manglewood_wood"
     }
   ],
   "result": {
-    "count": 6,
-    "item": "midnight:manglewood_planks"
+    "basePredicate": {
+      "item": "midnight:manglewood_planks"
+    },
+    "count": 6
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
+  "stripped": {
+    "item": "midnight:stripped_manglewood_log"
+  },
   "strippingSecondaries": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ]
 }

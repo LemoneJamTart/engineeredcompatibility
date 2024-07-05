@@ -10,23 +10,11 @@
   "input": [
     {
       "item": "culturaldelights:avocado_log"
-    },
-    {
-      "item": "culturaldelights:avocado_wood"
-    }
-  ],
-  "result": {
-    "count": 6,
-    "item": "minecraft:jungle_planks"
-  },
-  "secondaryOutputs": [
-    {
-       "tag": "forge:dusts/wood"
     }
   ],
   "strippingSecondaries": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ]
 }

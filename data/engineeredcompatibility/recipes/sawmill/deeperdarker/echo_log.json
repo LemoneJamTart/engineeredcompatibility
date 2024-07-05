@@ -10,23 +10,25 @@
   "input": [
     {
       "item": "deeperdarker:echo_log"
-    },
-    {
-      "item": "deeperdarker:echo_wood"
     }
   ],
   "result": {
-    "count": 6,
-    "item": "deeperdarker:echo_planks"
+    "basePredicate": {
+      "item": "deeperdarker:echo_planks"
+    },
+    "count": 6
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
+  "stripped": {
+    "item": "deeperdarker:stripped_echo_log"
+  },
   "strippingSecondaries": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ]
 }

@@ -10,26 +10,14 @@
   "input": [
     {
       "item": "aether_redux:blightwillow_log"
-    },
-    {
-      "item": "aether_redux:sporing_blightwillow_log"
-    },
-    {
-      "item": "aether_redux:blightwillow_wood"
     }
   ],
-  "result": {
-    "count": 6,
-    "item": "aether_redux:blightwillow_planks"
+  "stripped": {
+    "item": "aether_redux:stripped_blightwillow_log"
   },
-  "secondaryOutputs": [
-    {
-       "tag": "forge:dusts/wood"
-    }
-  ],
   "strippingSecondaries": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ]
 }

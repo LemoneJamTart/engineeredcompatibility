@@ -10,23 +10,25 @@
   "input": [
     {
       "item": "twilightforest:canopy_log"
-    },
-    {
-      "item": "twilightforest:canopy_wood"
     }
   ],
   "result": {
-    "count": 6,
-    "item": "twilightforest:canopy_planks"
+    "basePredicate": {
+      "item": "twilightforest:canopy_planks"
+    },
+    "count": 6
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
+  "stripped": {
+    "item": "twilightforest:stripped_canopy_log"
+  },
   "strippingSecondaries": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ]
 }

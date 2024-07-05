@@ -2,19 +2,19 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "blue_skies"
+      "modid": "ecologics"
     }
   ],
   "type": "immersiveengineering:sawmill",
   "energy": 1600,
   "input": [
     {
-      "item": "blue_skies:comet_log"
+      "item": "ecologics:walnut_wood"
     }
   ],
   "result": {
     "basePredicate": {
-      "item": "blue_skies:comet_planks"
+      "item": "ecologics:walnut_planks"
     },
     "count": 6
   },
@@ -24,7 +24,7 @@
     }
   ],
   "stripped": {
-    "item": "blue_skies:stripped_comet_log"
+    "item": "ecologics:stripped_walnut_wood"
   },
   "strippingSecondaries": [
     {

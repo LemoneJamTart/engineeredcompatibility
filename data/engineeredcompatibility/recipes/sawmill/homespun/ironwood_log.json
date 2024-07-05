@@ -10,23 +10,25 @@
   "input": [
     {
       "item": "homespun:ironwood_log"
-    },
-    {
-      "item": "homespun:ironwood_wood"
     }
   ],
   "result": {
-    "count": 6,
-    "item": "homespun:ironwood_planks"
+    "basePredicate": {
+      "item": "homespun:ironwood_planks"
+    },
+    "count": 6
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
+  "stripped": {
+    "item": "homespun:stripped_ironwood_log"
+  },
   "strippingSecondaries": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ]
 }

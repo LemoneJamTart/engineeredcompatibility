@@ -10,23 +10,25 @@
   "input": [
     {
       "item": "midnight:shadowroot_log"
-    },
-    {
-      "item": "midnight:shadowroot_wood"
     }
   ],
   "result": {
-    "count": 6,
-    "item": "midnight:shadowroot_planks"
+    "basePredicate": {
+      "item": "midnight:shadowroot_planks"
+    },
+    "count": 6
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ],
+  "stripped": {
+    "item": "midnight:stripped_shadowroot_log"
+  },
   "strippingSecondaries": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
     }
   ]
 }
