@@ -2,19 +2,19 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "midnight"
+      "modid": "forbidden_arcanus"
     }
   ],
   "type": "immersiveengineering:sawmill",
   "energy": 1600,
   "input": [
     {
-      "item": "midnight:bogshroom_stem"
+      "item": "forbidden_arcanus:fungyss_stem"
     }
   ],
   "result": {
     "basePredicate": {
-      "item": "midnight:bogshroom_planks"
+      "item": "forbidden_arcanus:fungyss_planks"
     },
     "count": 6
   },

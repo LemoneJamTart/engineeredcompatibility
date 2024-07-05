@@ -2,19 +2,19 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "midnight"
+      "modid": "aether_redux"
     }
   ],
   "type": "immersiveengineering:sawmill",
   "energy": 1600,
   "input": [
     {
-      "item": "midnight:bogshroom_stem"
+      "item": "aether_redux:cloudcap_stem"
     }
   ],
   "result": {
     "basePredicate": {
-      "item": "midnight:bogshroom_planks"
+      "item": "aether_redux:cloudcap_planks"
     },
     "count": 6
   },
@@ -23,5 +23,12 @@
       "tag": "forge:dusts/wood"
     }
   ],
-  "strippingSecondaries": []
+  "stripped": {
+    "item": "aether_redux:stripped_cloudcap_stem"
+  },
+  "strippingSecondaries": [
+    {
+      "tag": "forge:dusts/wood"
+    }
+  ]
 }

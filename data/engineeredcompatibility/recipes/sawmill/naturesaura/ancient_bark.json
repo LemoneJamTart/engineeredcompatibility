@@ -2,21 +2,21 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "midnight"
+      "modid": "naturesaura"
     }
   ],
   "type": "immersiveengineering:sawmill",
   "energy": 1600,
   "input": [
     {
-      "item": "midnight:bogshroom_stem"
+      "item": "naturesaura:ancient_bark"
     }
   ],
   "result": {
     "basePredicate": {
-      "item": "midnight:bogshroom_planks"
+      "item": "naturesaura:ancient_planks"
     },
-    "count": 6
+    "count": 3
   },
   "secondaryOutputs": [
     {
