@@ -16,12 +16,20 @@
     "item": "twilightforest:canopy_bookshelf"
   },
   "result": {
-    "count": 4,
-    "item": "twilightforest:canopy_planks"
+    "basePredictate": {
+      "item": "twilightforest:canopy_planks"
+    },
+    "count": 4
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
+    },
+    {
+      "basePredicate": {
+        "item": "minecraf	:book"
+      },
+      "count": 3
     }
   ],
   "strippingSecondaries": []

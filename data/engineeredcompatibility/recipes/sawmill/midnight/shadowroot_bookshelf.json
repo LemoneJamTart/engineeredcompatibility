@@ -12,12 +12,20 @@
     "item": "midnight:shadowroot_bookshelf"
   },
   "result": {
-    "count": 4,
-    "item": "midnight:shadowroot_planks"
+    "basePredictate": {
+      "item": "midnight:shadowroot_planks"
+    },
+    "count": 4
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
+    },
+    {
+      "basePredicate": {
+        "item": "minecraf	:book"
+      },
+      "count": 3
     }
   ],
   "strippingSecondaries": []

@@ -19,12 +19,20 @@
     "item": "everycomp:q/forbidden_arcanus/aurum_bookshelf"
   },
   "result": {
-    "count": 4,
-    "item": "forbidden_arcanus:aurum_planks"
+    "basePredictate": {
+      "item": "forbidden_arcanus:aurum_planks"
+    },
+    "count": 4
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
+    },
+    {
+      "basePredicate": {
+        "item": "minecraf	:book"
+      },
+      "count": 3
     }
   ],
   "strippingSecondaries": []

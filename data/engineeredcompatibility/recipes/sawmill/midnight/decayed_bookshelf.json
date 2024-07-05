@@ -12,12 +12,20 @@
     "item": "midnight:decayed_wood_bookshelf"
   },
   "result": {
-    "count": 4,
-    "item": "midnight:decayed_planks"
+    "basePredictate": {
+      "item": "midnight:decayed_planks"
+    },
+    "count": 4
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
+    },
+    {
+      "basePredicate": {
+        "item": "minecraf	:book"
+      },
+      "count": 3
     }
   ],
   "strippingSecondaries": []

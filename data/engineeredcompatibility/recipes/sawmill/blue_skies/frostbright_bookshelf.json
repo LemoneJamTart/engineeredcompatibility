@@ -12,12 +12,20 @@
     "item": "blue_skies:frostbright_bookshelf"
   },
   "result": {
-    "count": 4,
-    "item": "blue_skies:frostbright_planks"
+    "basePredictate": {
+      "item": "blue_skies:frostbright_planks"
+    },
+    "count": 4
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
+    },
+    {
+      "basePredicate": {
+        "item": "minecraf	:book"
+      },
+      "count": 3
     }
   ],
   "strippingSecondaries": []

@@ -19,12 +19,20 @@
     "item": "everycomp:q/homespun/ironwood_bookshelf"
   },
   "result": {
-    "count": 4,
-    "item": "homespun:ironwood_planks"
+    "basePredictate": {
+      "item": "homespun:ironwood_planks"
+    },
+    "count": 4
   },
   "secondaryOutputs": [
     {
-       "tag": "forge:dusts/wood"
+      "tag": "forge:dusts/wood"
+    },
+    {
+      "basePredicate": {
+        "item": "minecraf	:book"
+      },
+      "count": 3
     }
   ],
   "strippingSecondaries": []
