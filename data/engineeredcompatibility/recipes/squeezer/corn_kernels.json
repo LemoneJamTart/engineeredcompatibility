@@ -24,6 +24,7 @@
   "input": {
     "basePredicate": {
       "tag": "forge:seeds/corn"
-    }
+    },
+    "count": 1
   }
 }

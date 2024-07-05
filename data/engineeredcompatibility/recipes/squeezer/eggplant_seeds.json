@@ -17,6 +17,7 @@
   "input": {
     "basePredicate": {
       "tag": "forge:seeds/eggplant"
-    }
+    },
+    "count": 1
   }
 }

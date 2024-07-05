@@ -17,6 +17,7 @@
   "input": {
     "basePredicate": {
       "tag": "forge:fruits/sourceberry"
-    }
+    },
+    "count": 1
   }
 }

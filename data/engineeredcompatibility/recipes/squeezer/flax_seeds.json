@@ -17,6 +17,7 @@
   "input": {
     "basePredicate": {
       "tag": "forge:seeds/flax"
-    }
+    },
+    "count": 1
   }
 }

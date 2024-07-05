@@ -17,6 +17,7 @@
   "input": {
     "basePredicate": {
       "tag": "forge:nuts/walnut"
-    }
+    },
+    "count": 1
   }
 }

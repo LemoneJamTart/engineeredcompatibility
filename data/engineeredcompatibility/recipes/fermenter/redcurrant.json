@@ -17,6 +17,7 @@
   "input": {
     "basePredicate": {
       "tag": "forge:fruits/redcurrant"
-    }
+    },
+    "count": 1
   }
 }

@@ -17,6 +17,7 @@
   "input": {
     "basePredicate": {
       "tag": "forge:vinegar_ingredients"
-    }
+    },
+    "count": 1
   }
 }

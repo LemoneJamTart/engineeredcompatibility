@@ -17,6 +17,7 @@
   "input": {
     "basePredicate": {
       "tag": "forge:seeds/cucumber"
-    }
+    },
+    "count": 1
   }
 }

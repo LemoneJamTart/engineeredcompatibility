@@ -17,6 +17,7 @@
   "input": {
     "basePredicate": {
       "tag": "forge:fruits/blackcurrant"
-    }
+    },
+    "count": 1
   }
 }
