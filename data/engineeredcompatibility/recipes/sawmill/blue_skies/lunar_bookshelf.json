@@ -23,7 +23,7 @@
     },
     {
       "basePredicate": {
-        "item": "minecraf	:book"
+        "item": "minecraft:book"
       },
       "count": 3
     }
