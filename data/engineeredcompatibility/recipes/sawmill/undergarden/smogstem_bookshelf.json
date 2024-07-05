@@ -19,7 +19,7 @@
     "item": "everycomp:q/undergarden/smogstem_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "undergarden:smogstem_planks"
     },
     "count": 4

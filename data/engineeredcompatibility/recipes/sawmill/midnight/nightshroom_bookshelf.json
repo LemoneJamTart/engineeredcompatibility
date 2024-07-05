@@ -19,7 +19,7 @@
     "item": "everycomp:q/midnight/nightshroom_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "midnight:nightshroom_planks"
     },
     "count": 4

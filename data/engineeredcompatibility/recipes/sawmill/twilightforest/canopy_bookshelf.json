@@ -16,7 +16,7 @@
     "item": "twilightforest:canopy_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "twilightforest:canopy_planks"
     },
     "count": 4

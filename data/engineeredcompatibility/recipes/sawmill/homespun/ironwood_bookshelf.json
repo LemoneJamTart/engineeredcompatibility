@@ -19,7 +19,7 @@
     "item": "everycomp:q/homespun/ironwood_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "homespun:ironwood_planks"
     },
     "count": 4

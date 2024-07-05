@@ -12,7 +12,7 @@
     "item": "aether_redux:crystal_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "aether_redux:crystal_planks"
     },
     "count": 4

@@ -19,7 +19,7 @@
     "item": "everycomp:q/ecologics/azalea_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "ecologics:azalea_planks"
     },
     "count": 4

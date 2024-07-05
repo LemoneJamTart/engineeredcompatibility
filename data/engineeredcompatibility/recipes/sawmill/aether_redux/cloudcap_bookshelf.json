@@ -12,7 +12,7 @@
     "item": "aether_redux:cloudcap_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "aether_redux:cloudcap_planks"
     },
     "count": 4

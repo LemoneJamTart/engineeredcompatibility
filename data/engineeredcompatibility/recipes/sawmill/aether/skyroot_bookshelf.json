@@ -12,7 +12,7 @@
     "item": "aether:skyroot_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "aether:skyroot_planks"
     },
     "count": 4

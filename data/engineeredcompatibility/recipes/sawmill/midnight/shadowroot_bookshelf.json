@@ -12,7 +12,7 @@
     "item": "midnight:shadowroot_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "midnight:shadowroot_planks"
     },
     "count": 4

@@ -16,7 +16,7 @@
     "item": "everycomp:q/hexcasting/edified_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "hexcasting:edified_planks"
     },
     "count": 4

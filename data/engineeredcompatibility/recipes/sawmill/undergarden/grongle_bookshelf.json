@@ -19,7 +19,7 @@
     "item": "everycomp:q/undergarden/grongle_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "undergarden:grongle_planks"
     },
     "count": 4

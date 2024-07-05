@@ -19,7 +19,7 @@
     "item": "everycomp:q/deep_aether/sunroot_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "deep_aether:sunroot_planks"
     },
     "count": 4

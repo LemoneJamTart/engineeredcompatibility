@@ -12,7 +12,7 @@
     "item": "aether_redux:glacia_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "aether_redux:glacia_planks"
     },
     "count": 4

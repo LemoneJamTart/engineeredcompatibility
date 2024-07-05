@@ -12,7 +12,7 @@
     "item": "midnight:decayed_wood_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "midnight:decayed_planks"
     },
     "count": 4

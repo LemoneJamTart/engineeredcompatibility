@@ -19,7 +19,7 @@
     "item": "everycomp:q/deep_aether/roseroot_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "deep_aether:roseroot_planks"
     },
     "count": 4

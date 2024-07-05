@@ -19,7 +19,7 @@
     "item": "everycomp:q/ecologics/coconut_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "ecologics:coconut_planks"
     },
     "count": 4

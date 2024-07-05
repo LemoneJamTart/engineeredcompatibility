@@ -19,7 +19,7 @@
     "item": "everycomp:q/eidolon/illwood_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "eidolon:illwood_planks"
     },
     "count": 4

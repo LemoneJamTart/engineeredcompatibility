@@ -12,7 +12,7 @@
     "item": "ancient_aether:highsproot_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "ancient_aether:highsproot_planks"
     },
     "count": 4

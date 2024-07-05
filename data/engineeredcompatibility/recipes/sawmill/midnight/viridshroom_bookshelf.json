@@ -19,7 +19,7 @@
     "item": "everycomp:q/midnight/viridshroom_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "midnight:viridshroom_planks"
     },
     "count": 4

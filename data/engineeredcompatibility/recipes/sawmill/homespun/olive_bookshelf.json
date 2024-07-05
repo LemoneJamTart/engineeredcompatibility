@@ -19,7 +19,7 @@
     "item": "everycomp:q/homespun/olive_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "homespun:olive_planks"
     },
     "count": 4

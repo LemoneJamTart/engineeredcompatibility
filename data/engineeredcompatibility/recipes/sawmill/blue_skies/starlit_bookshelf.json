@@ -12,7 +12,7 @@
     "item": "blue_skies:starlit_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "blue_skies:starlit_planks"
     },
     "count": 4

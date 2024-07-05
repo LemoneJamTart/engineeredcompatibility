@@ -12,7 +12,7 @@
     "item": "aether_redux:blightwillow_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "aether_redux:blightwillow_planks"
     },
     "count": 4

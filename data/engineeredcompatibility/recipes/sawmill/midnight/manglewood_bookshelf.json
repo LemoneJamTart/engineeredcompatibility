@@ -12,7 +12,7 @@
     "item": "midnight:manglewood_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "midnight:manglewood_planks"
     },
     "count": 4

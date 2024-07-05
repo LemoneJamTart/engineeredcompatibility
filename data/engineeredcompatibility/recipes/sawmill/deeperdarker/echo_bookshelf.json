@@ -19,7 +19,7 @@
     "item": "everycomp:q/deeperdarker/echo_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "deeperdarker:echo_planks"
     },
     "count": 4

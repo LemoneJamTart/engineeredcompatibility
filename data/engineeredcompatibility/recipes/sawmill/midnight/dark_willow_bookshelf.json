@@ -12,7 +12,7 @@
     "item": "midnight:dark_willow_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "midnight:dark_willow_planks"
     },
     "count": 4

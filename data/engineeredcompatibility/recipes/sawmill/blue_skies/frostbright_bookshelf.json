@@ -12,7 +12,7 @@
     "item": "blue_skies:frostbright_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "blue_skies:frostbright_planks"
     },
     "count": 4

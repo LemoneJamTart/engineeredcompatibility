@@ -19,7 +19,7 @@
     "item": "everycomp:q/blue_skies/crystallized_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "blue_skies:crystallized_planks"
     },
     "count": 4

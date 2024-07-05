@@ -19,7 +19,7 @@
     "item": "everycomp:q/midnight/dewshroom_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "midnight:dewshroom_planks"
     },
     "count": 4

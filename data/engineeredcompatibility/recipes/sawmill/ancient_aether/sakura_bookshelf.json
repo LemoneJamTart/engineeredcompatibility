@@ -12,7 +12,7 @@
     "item": "ancient_aether:sakura_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "ancient_aether:sakura_planks"
     },
     "count": 4

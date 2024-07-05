@@ -19,7 +19,7 @@
     "item": "everycomp:q/ecologics/walnut_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "ecologics:walnut_planks"
     },
     "count": 4

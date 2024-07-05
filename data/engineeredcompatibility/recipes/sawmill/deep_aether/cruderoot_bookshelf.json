@@ -19,7 +19,7 @@
     "item": "everycomp:q/deep_aether/cruderoot_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "deep_aether:cruderoot_planks"
     },
     "count": 4

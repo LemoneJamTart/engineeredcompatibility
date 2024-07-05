@@ -19,7 +19,7 @@
     "item": "everycomp:q/ars_nouveau/archwood_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "ars_nouveau:archwood_planks"
     },
     "count": 4

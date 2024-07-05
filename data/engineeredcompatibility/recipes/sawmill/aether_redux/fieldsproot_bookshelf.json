@@ -12,7 +12,7 @@
     "item": "aether_redux:fieldsproot_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "aether_redux:fieldsproot_planks"
     },
     "count": 4

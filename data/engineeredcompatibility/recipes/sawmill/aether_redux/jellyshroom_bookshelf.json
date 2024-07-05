@@ -12,7 +12,7 @@
     "item": "aether_redux:jellyshroom_bookshelf"
   },
   "result": {
-    "basePredictate": {
+    "basePredicate": {
       "item": "aether_redux:jellyshroom_planks"
     },
     "count": 4
