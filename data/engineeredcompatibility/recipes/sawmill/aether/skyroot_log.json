@@ -10,6 +10,9 @@
   "input": [
     {
       "item": "aether:skyroot_log"
+    },
+    {
+      "item": "aether:golden_oak_log"
     }
   ],
   "result": {

@@ -10,6 +10,9 @@
   "input": [
     {
       "item": "aether:skyroot_wood"
+    },
+    {
+      "item": "aether:golden_oak_wood"
     }
   ],
   "result": {
