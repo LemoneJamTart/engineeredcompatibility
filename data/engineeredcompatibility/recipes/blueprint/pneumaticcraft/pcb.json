@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "type": "immersiveengineering:blueprint",
+  "category": "pcb",
+  "inputs": [
+    {
+      "basePredicate": {
+        "item": "pneumaticcraft:unassembled_pcb"
+      },
+      "count": 1
+    },
+    {
+      "basePredicate": {
+        "item": "immersiveengineering:electron_tube"
+      },
+      "count": 3
+    },
+    {
+      "basePredicate": {
+        "item": "pneumaticcraft:capacitor"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "Count": 1,
+    "id": "pneumaticcraft:printed_circuit_board"
+  }
+}

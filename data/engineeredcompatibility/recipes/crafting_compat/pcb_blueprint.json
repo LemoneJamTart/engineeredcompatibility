@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {
+      "tag": "forge:dyes/blue"
+    },
+    "k": {
+      "tag": "forge:plates/plastic"
+    },
+    "l": {
+      "tag": "forge:ingots/compressed_iron"
+    },
+    "p": {
+      "tag": "forge:paper"
+    }
+  },
+  "pattern": [
+    "lkl",
+    "ddd",
+    "ppp"
+  ],
+  "result": {
+    "item": "immersiveengineering:blueprint",
+    "nbt": "{blueprint:\"pcb\"}"
+  },
+  "show_notification": false
+}
