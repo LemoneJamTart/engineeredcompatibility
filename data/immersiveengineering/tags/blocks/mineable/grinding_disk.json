@@ -5,6 +5,14 @@
       "required": false
     },
     {
+      "id": "aether:ambrosium_block",
+      "required": false
+    },
+    {
+      "id": "aether:zanite_block",
+      "required": false
+    },
+    {
       "id": "blue_skies:moonstone_block",
       "required": false
     },
@@ -25,15 +33,43 @@
       "required": false
     },
     {
+      "id": "blue_skies:raw_aquite_block",
+      "required": false
+    },
+    {
+      "id": "blue_skies:raw_charoite_block",
+      "required": false
+    },
+    {
+      "id": "blue_skies:raw_falsite_block",
+      "required": false
+    },
+    {
+      "id": "blue_skies:raw_ventium_block",
+      "required": false
+    },
+    {
+      "id": "blue_skies:raw_horizonite_block",
+      "required": false
+    },
+    {
+      "id": "occultism:raw_silver_block",
+      "required": false
+    },
+    {
+      "id": "occultism:raw_iesnium_block",
+      "required": false
+    },
+    {
       "id": "twilightforest:carminite_block",
       "required": false
     },
     {
-      "id": "aether:ambrosium_block",
+      "id": "undergarden:raw_cloggrum_block",
       "required": false
     },
     {
-      "id": "aether:zanite_block",
+      "id": "undergarden:raw_froststeel_block",
       "required": false
     }
   ],
