@@ -27,10 +27,10 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
      - Added Tough Fabric recipe for Bandages
      - Added Smooth Plastic Bricks to the "connector insulator" list
      - Added compat between IE and PNC circuit construction systems
-         - Plastic Sheets can be used to make circuit backplanes without Duroplast the Engineer's Workbench
+         - Plastic Sheets can be used to make circuit backplanes in the Engineer's Workbench
          - Duroplast Sheets can be used to make Capacitors and Empty PCBs in the Engineer's Workbench
          - Finished PCBs can be made with Capacitors and Vacuum Tubes in the Engineer's Workbench
-         - Etching Acid can be made from Phenolic Resin in the Mixer with a recipe possible in Peaceful Mode
+         - Etching Acid can be made from Phenolic Resin in the Mixer without mob parts
  - Serene Seasons:
      - Added season support to Industrial Hemp
  - Totemic:
