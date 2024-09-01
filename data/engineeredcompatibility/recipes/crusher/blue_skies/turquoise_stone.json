@@ -1,24 +1,17 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "blue_skies"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
-        "energy": 2000,
-        "input": {
-          "item": "blue_skies:turquoise_stone"
-        },
-        "result": {
-            "item": "blue_skies:turquoise_cobblestone"
-        },
-        "secondaries": []
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "blue_skies"
     }
-  ]
+  ],
+  "type": "immersiveengineering:crusher",
+  "energy": 2000,
+  "input": {
+    "item": "blue_skies:turquoise_stone"
+  },
+  "result": {
+      "item": "blue_skies:turquoise_cobblestone"
+  },
+  "secondaries": []
 }

@@ -1,42 +1,36 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:gems/arcane_crystal"
-          }
-        },
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:dusts/arcane_crystal"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
-        "energy": 2400,
-        "input": {
-          "tag": "forge:gems/arcane_crystal"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:dusts/arcane_crystal"
-          }
-        },
-        "secondaries": [
-          {
-            "chance": 0.125,
-            "output": {
-              "tag": "forge:dusts/arcane_crystal"
-            }
-          }
-        ]
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:gems/arcane_crystal"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:dusts/arcane_crystal"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
+  "energy": 2400,
+  "input": {
+    "tag": "forge:gems/arcane_crystal"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:dusts/arcane_crystal"
+    }
+  },
+  "secondaries": [
+    {
+      "chance": 0.125,
+      "conditions": [],
+      "output": {
+        "tag": "forge:dusts/arcane_crystal"
       }
     }
   ]

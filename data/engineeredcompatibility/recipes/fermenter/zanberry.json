@@ -1,24 +1,17 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "aether_redux"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:fermenter",
-        "energy": 6400,
-        "fluid": {
-          "amount": 60,
-          "fluid": "immersiveengineering:ethanol"
-        },
-        "input": {
-          "item": "aether_redux:zanberry"
-        }
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "aether_redux"
     }
-  ]
+  ],
+  "type": "immersiveengineering:fermenter",
+  "energy": 6400,
+  "fluid": {
+    "Amount": 60,
+    "FluidName": "immersiveengineering:ethanol"
+  },
+  "input": {
+    "item": "aether_redux:zanberry"
+  }
 }

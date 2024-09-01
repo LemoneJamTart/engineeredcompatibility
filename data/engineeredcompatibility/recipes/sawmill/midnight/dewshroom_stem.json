@@ -1,34 +1,27 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "midnight"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "midnight:dewshroom_stem"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "midnight:dewshroom_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "midnight"
     }
-  ]
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": [
+    {
+      "item": "midnight:dewshroom_stem"
+    }
+  ],
+  "result": {
+    "basePredicate": {
+      "item": "midnight:dewshroom_planks"
+    },
+    "count": 6
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "forge:dusts/wood"
+    }
+  ],
+  "strippingSecondaries": []
 }

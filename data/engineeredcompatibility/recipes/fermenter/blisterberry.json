@@ -1,24 +1,17 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "undergarden"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:fermenter",
-        "energy": 6400,
-        "fluid": {
-          "amount": 50,
-          "fluid": "immersiveengineering:ethanol"
-        },
-        "input": {
-          "item": "undergarden:blisterberry"
-        }
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "undergarden"
     }
-  ]
+  ],
+  "type": "immersiveengineering:fermenter",
+  "energy": 6400,
+  "fluid": {
+    "Amount": 50,
+    "FluidName": "immersiveengineering:ethanol"
+  },
+  "input": {
+    "item": "undergarden:blisterberry"
+  }
 }

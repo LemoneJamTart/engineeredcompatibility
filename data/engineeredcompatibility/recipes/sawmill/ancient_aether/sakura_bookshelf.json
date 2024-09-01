@@ -1,40 +1,32 @@
 
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "ancient_aether"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": {
-          "item": "ancient_aether:sakura_bookshelf"
-        },
-        "result": {
-          "count": 4,
-          "item": "ancient_aether:sakura_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          },
-          {
-            "output": {
-              "count": 3,
-              "item": "minecraft:book"
-            },
-            "stripping": false
-          }
-        ]
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "ancient_aether"
     }
-  ]
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "ancient_aether:sakura_bookshelf"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "ancient_aether:sakura_planks"
+    },
+    "count": 4
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "forge:dusts/wood"
+    },
+    {
+      "basePredicate": {
+        "item": "minecraft:book"
+      },
+      "count": 3
+    }
+  ],
+  "strippingSecondaries": []
 }

@@ -1,38 +1,39 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:raw_materials/falsite"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:arc_furnace",
-        "additives": [],
-        "energy": 25600,
-        "input": {
-          "tag": "forge:raw_materials/falsite"
-        },
-        "results": [
-          {
-            "tag": "forge:ingots/falsite"
-          }
-        ],
-        "secondaries": [
-          {
-            "chance": 0.5,
-            "output": {
-              "tag": "forge:ingots/falsite"
-            }
-          }
-        ],
-        "time": 100
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:raw_materials/falsite"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/falsite"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [],
+  "energy": 25600,
+  "input": {
+    "tag": "forge:raw_materials/falsite"
+  },
+  "results": [
+    {
+      "tag": "forge:ingots/falsite"
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "conditions": [],
+      "output": {
+        "tag": "forge:ingots/falsite"
+      }
+    }
+  ],
+  "time": 100
 }

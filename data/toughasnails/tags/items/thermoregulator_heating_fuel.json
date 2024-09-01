@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "immersiveengineering:dust_coke",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:coal_coke",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:coke",
+      "required": false
+    }
+  ]
+}

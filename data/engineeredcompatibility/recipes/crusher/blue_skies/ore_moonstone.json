@@ -1,37 +1,30 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:ores/moonstone"
-          }
-        },
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:gems/moonstone"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
-        "energy": 6000,
-        "input": {
-          "tag": "forge:ores/moonstone"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:gems/moonstone"
-          },
-          "count": 2
-        },
-        "secondaries": []
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ores/moonstone"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:gems/moonstone"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "forge:ores/moonstone"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:gems/moonstone"
+    },
+    "count": 2
+  },
+  "secondaries": []
 }

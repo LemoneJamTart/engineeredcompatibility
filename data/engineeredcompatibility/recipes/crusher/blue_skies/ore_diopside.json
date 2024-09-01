@@ -1,37 +1,30 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:ores/diopside"
-          }
-        },
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:gems/diopside"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
-        "energy": 6000,
-        "input": {
-          "tag": "forge:ores/diopside"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:gems/diopside"
-          },
-          "count": 2
-        },
-        "secondaries": []
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ores/diopside"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:gems/diopside"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "forge:ores/diopside"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:gems/diopside"
+    },
+    "count": 2
+  },
+  "secondaries": []
 }

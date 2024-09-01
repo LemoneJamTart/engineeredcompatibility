@@ -1,46 +1,34 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "twilightforest"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "twilightforest:dark_log"
-          },
-          {
-            "item": "twilightforest:dark_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "twilightforest:dark_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "twilightforest:stripped_dark_log"
-        }
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": [
+    {
+      "item": "twilightforest:dark_log"
+    }
+  ],
+  "result": {
+    "basePredicate": {
+      "item": "twilightforest:dark_planks"
+    },
+    "count": 6
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "forge:dusts/wood"
+    }
+  ],
+  "stripped": {
+    "item": "twilightforest:stripped_dark_log"
+  },
+  "strippingSecondaries": [
+    {
+      "tag": "forge:dusts/wood"
     }
   ]
 }

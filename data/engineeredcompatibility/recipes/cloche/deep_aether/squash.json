@@ -1,0 +1,44 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "deep_aether"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "deep_aether:squash_seeds"
+        },
+        "render": {
+          "type": "stem",
+          "block": "deep_aether:squash_stem"
+        },
+        "results": [
+          {
+            "count": 1,
+            "item": "deep_aether:blue_squash"
+          },
+		  {
+            "count": 1,
+            "item": "deep_aether:green_squash"
+          },
+		  {
+            "count": 1,
+            "item": "deep_aether:purple_squash"
+          },
+          {
+            "item": "deep_aether:squash_seeds"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

@@ -1,27 +1,23 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:fruits/sourceberry"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:fermenter",
-        "energy": 6400,
-        "fluid": {
-          "amount": 50,
-          "fluid": "immersiveengineering:ethanol"
-        },
-        "input": {
-          "tag": "forge:fruits/sourceberry"
-        }
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:fruits/sourceberry"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:fermenter",
+  "energy": 6400,
+  "fluid": {
+    "Amount": 50,
+    "FluidName": "immersiveengineering:ethanol"
+  },
+  "input": {
+    "basePredicate": {
+      "tag": "forge:fruits/sourceberry"
+    },
+    "count": 1
+  }
 }

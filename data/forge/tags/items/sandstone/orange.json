@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "biomesoplenty:orange_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_orange_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chisled_orange_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_orange_sandstone",
+      "required": false
+    }
+  ]
+}

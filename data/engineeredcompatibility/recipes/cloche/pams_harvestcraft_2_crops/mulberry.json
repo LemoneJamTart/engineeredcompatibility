@@ -1,36 +1,29 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "pamhc2crops"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "pamhc2crops:mulberryseeditem"
-        },
-        "render": {
-          "type": "crop",
-          "block": "pamhc2crops:pammulberrycrop"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "pamhc2crops:mulberryitem"
-          },
-          {
-            "item": "pamhc2crops:mulberryseeditem"
-          }
-        ],
-        "soil": {
-          "item": "minecraft:dirt"
-        },
-        "time": 800
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "pamhc2crops"
     }
-  ]
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "pamhc2crops:mulberryseeditem"
+  },
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pammulberrycrop"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "pamhc2crops:mulberryitem"
+    },
+    {
+      "item": "pamhc2crops:mulberryseeditem"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800
 }

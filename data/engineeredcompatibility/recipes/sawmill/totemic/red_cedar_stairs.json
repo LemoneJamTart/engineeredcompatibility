@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "totemic"
+    }
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "totemic:cedar_stairs"
+  },
+  "result": {
+    "item": "totemic:cedar_planks"
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "forge:dusts/wood"
+    }
+  ],
+  "strippingSecondaries": []
+}

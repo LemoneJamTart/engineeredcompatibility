@@ -1,37 +1,30 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "farmersdelight"
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "coffee_delight"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "coffee_delight:coffee_berries"
-        },
-        "render": {
-          "type": "crop",
-          "block": "coffee_delight:coffee_bush"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "coffee_delight:coffee_berries"
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 370
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "coffee_delight"
     }
-  ]
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "coffee_delight:coffee_berries"
+  },
+  "render": {
+    "type": "crop",
+    "block": "coffee_delight:coffee_bush"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "coffee_delight:coffee_berries"
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 370
 }

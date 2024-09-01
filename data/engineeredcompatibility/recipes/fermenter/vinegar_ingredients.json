@@ -1,27 +1,23 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:vinegar_ingredients"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:fermenter",
-        "energy": 6400,
-        "fluid": {
-          "amount": 80,
-          "fluid": "immersiveengineering:ethanol"
-        },
-        "input": {
-          "tag": "forge:vinegar_ingredients"
-        }
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:vinegar_ingredients"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:fermenter",
+  "energy": 6400,
+  "fluid": {
+    "Amount": 80,
+    "FluidName": "immersiveengineering:ethanol"
+  },
+  "input": {
+    "basePredicate": {
+      "tag": "forge:vinegar_ingredients"
+    },
+    "count": 1
+  }
 }

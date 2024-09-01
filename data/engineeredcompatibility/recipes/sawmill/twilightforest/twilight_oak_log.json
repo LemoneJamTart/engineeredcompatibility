@@ -1,46 +1,34 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "twilightforest"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "twilightforest:twilight_oak_log"
-          },
-          {
-            "item": "twilightforest:twilight_oak_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "twilightforest:twilight_oak_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "twilightforest:stripped_twilight_oak_log"
-        }
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": [
+    {
+      "item": "twilightforest:twilight_oak_log"
+    }
+  ],
+  "result": {
+    "basePredicate": {
+      "item": "twilightforest:twilight_oak_planks"
+    },
+    "count": 6
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "forge:dusts/wood"
+    }
+  ],
+  "stripped": {
+    "item": "twilightforest:stripped_twilight_oak_log"
+  },
+  "strippingSecondaries": [
+    {
+      "tag": "forge:dusts/wood"
     }
   ]
 }

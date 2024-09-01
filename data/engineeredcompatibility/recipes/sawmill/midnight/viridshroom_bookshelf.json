@@ -1,47 +1,39 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "midnight"
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "everycomp"
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "quark"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": {
-          "item": "everycomp:q/midnight/viridshroom_bookshelf"
-        },
-        "result": {
-          "count": 4,
-          "item": "midnight:viridshroom_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          },
-          {
-            "output": {
-              "count": 3,
-              "item": "minecraft:book"
-            },
-            "stripping": false
-          }
-        ]
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "midnight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "everycomp"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "quark"
     }
-  ]
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": {
+    "item": "everycomp:q/midnight/viridshroom_bookshelf"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "midnight:viridshroom_planks"
+    },
+    "count": 4
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "forge:dusts/wood"
+    },
+    {
+      "basePredicate": {
+        "item": "minecraft:book"
+      },
+      "count": 3
+    }
+  ],
+  "strippingSecondaries": []
 }

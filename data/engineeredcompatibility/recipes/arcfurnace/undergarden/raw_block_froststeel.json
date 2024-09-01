@@ -1,41 +1,41 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:storage_blocks/raw_froststeel"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:arc_furnace",
-        "additives": [],
-        "energy": 230400,
-        "input": {
-          "tag": "forge:storage_blocks/raw_froststeel"
-        },
-        "results": [
-          {
-            "base_ingredient": {
-              "tag": "forge:ingots/froststeel"
-            },
-            "count": 13
-          }
-        ],
-        "secondaries": [
-          {
-            "chance": 0.5,
-            "output": {
-              "tag": "forge:ingots/froststeel"
-            }
-          }
-        ],
-        "time": 900
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:storage_blocks/raw_froststeel"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/froststeel"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [],
+  "energy": 230400,
+  "input": {
+    "tag": "forge:storage_blocks/raw_froststeel"
+  },
+  "results": [
+    {
+      "basePredicate": {
+        "tag": "forge:ingots/froststeel"
+      },
+      "count": 13
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:ingots/froststeel"
+      }
+    }
+  ],
+  "time": 900
 }

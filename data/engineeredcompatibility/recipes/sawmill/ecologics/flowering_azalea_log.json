@@ -1,37 +1,34 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "ecologics"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "ecologics:flowering_azalea_log"
-          },
-          {
-            "item": "ecologics:flowering_azalea_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "ecologics:flowering_azalea_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
-      } 
+      "type": "neoforge:mod_loaded",
+      "modid": "ecologics"
+    }
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": [
+    {
+      "item": "ecologics:flowering_azalea_log"
+    }
+  ],
+  "result": {
+    "basePredicate": {
+      "item": "ecologics:flowering_azalea_planks"
+    },
+    "count": 6
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "forge:dusts/wood"
+    }
+  ],
+  "stripped": {
+    "item": "ecologics:stripped_flowering_azalea_log"
+  },
+  "strippingSecondaries": [
+    {
+      "tag": "forge:dusts/wood"
     }
   ]
 }

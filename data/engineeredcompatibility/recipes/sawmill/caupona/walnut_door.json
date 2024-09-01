@@ -1,31 +1,22 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "caupona"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
-        "energy": 800,
-        "input": {
-          "item": "caupona:walnut_door"
-        },
-        "result": {
-          "item": "caupona:walnut_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
-      } 
+      "type": "neoforge:mod_loaded",
+      "modid": "caupona"
     }
-  ]
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 800,
+  "input": {
+    "item": "caupona:walnut_door"
+  },
+  "result": {
+    "item": "caupona:walnut_planks"
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "forge:dusts/wood"
+    }
+  ],
+  "strippingSecondaries": []
 }

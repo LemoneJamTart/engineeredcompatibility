@@ -1,33 +1,26 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "ars_nouveau"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "ars_nouveau:sourceberry_bush"
-        },
-        "render": {
-          "type": "crop",
-          "block": "ars_nouveau:sourceberry_bush"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "ars_nouveau:sourceberry_bush"
-          }
-        ],
-        "soil": {
-          "item": "minecraft:dirt"
-        },
-        "time": 560
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
     }
-  ]
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "ars_nouveau:sourceberry_bush"
+  },
+  "render": {
+    "type": "crop",
+    "block": "ars_nouveau:sourceberry_bush"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "ars_nouveau:sourceberry_bush"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 560
 }

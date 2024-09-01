@@ -6,8 +6,44 @@ Mod-Datapack adding mod compat to Immersive Engineering machines &amp; products.
  - Adds `forge:gravel` compatibility to all Vanilla recipes that use gravel
  - Adds `forge:sand` compatibility to concrete recipes
  - Adds a logs-to-sawdust Crusher recipe
-  
-  
+
+
+### 1.20.4 Additional Supported Mods:
+- Applied Energistics 2:
+     - Adds Certus Quartz, Certus Quartz Buds, and Sky Stone to the Rockcutting Blade
+ - Aether:
+     - Removes Zanite and Ambrosium blocks from the Grinding Disc
+ - Biomes O' Plenty:
+     - Adds Orange, White, and Black sandstone to the Crusher
+     - Adds Rose Quartz to the Crusher
+     - Adds Dead, Empyreal, Fir, Hellbark, Magic, Mahogany, Maple, Palm, Pine, Redwood, Umbran, and Willow woodsets to the Sawmill
+ - Blue Skies:
+     - Removes Aquite, Moonstone, Pyrope, Diopside, and Charoite from the Grinding Disc
+ - ElementalCraft:
+     - Adds Springaline, Springaline Buds, Springaline Glass, and Burnt Glass to the Rockcutting Blade
+ - PneumaticCraft: Repressurized:
+     - Added High-Cetane Biodiesel to the fuel registry
+     - Added Etching Acid recipe to the Mixer
+     - Added Tough Fabric recipe for Bandages
+     - Added Smooth Plastic Bricks to the "connector insulator" list
+     - Added compat between IE and PNC circuit construction systems
+         - Plastic Sheets can be used to make circuit backplanes in the Engineer's Workbench
+         - Duroplast Sheets can be used to make Capacitors and Empty PCBs in the Engineer's Workbench
+         - Finished PCBs can be made with Capacitors and Vacuum Tubes in the Engineer's Workbench
+         - Etching Acid can be made from Phenolic Resin in the Mixer without mob parts
+ - Serene Seasons:
+     - Added season support to Industrial Hemp
+ - Totemic:
+     - Adds Red Cedar woodset to the Sawmill
+ - Tough As Nails:
+     - Adds Coal Coke, Coke Dust, and Coke Blocks to the Thermoregulator heating list
+ - Twilight Forest:
+     - Removes Carminite Block from the Grinding Disc
+     - Adds Iron Ladder, Candelabra, and Wrought Iron Fence to the Grinding Disc
+ - Undergarden:
+     - Adds Cloggrum Tiles and Cloggrum Bars to the Grinding Disc
+
+
 ### 1.20.1 Additional Supported Mods:
  - Applied Energistics 2:
      - Adds smelting of sand and flint into silicon to the Arc Furnace

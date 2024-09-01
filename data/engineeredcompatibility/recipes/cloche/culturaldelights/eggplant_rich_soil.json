@@ -1,40 +1,33 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "farmersdelight"
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "culturaldelights"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "culturaldelights:eggplant_seeds"
-        },
-        "render": {
-          "type": "crop",
-          "block": "culturaldelights:eggplants"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "culturaldelights:eggplant"
-          },
-          {
-            "item": "culturaldelights:eggplant_seeds"
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 425
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "culturaldelights"
     }
-  ]
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "culturaldelights:eggplant_seeds"
+  },
+  "render": {
+    "type": "crop",
+    "block": "culturaldelights:eggplants"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "culturaldelights:eggplant"
+    },
+    {
+      "item": "culturaldelights:eggplant_seeds"
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 425
 }

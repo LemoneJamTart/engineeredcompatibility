@@ -1,34 +1,30 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value":{
-              "type": "forge:mod_loaded",
-              "modid": "corn_delight"
-          }
-        },
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:crops/corn"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:fermenter",
-        "energy": 6400,
-        "fluid": {
-          "amount": 100,
-          "fluid": "immersiveengineering:ethanol"
-        },
-        "input": {
-          "tag": "forge:crops/corn"
-        }
+      "type": "neoforge:not",
+      "value":{
+          "type": "neoforge:mod_loaded",
+          "modid": "corn_delight"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:crops/corn"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:fermenter",
+  "energy": 6400,
+  "fluid": {
+    "Amount": 100,
+    "FluidName": "immersiveengineering:ethanol"
+  },
+  "input": {
+    "basePredicate": {
+      "tag": "forge:crops/corn"
+    },
+    "count": 1
+  }
 }

@@ -1,37 +1,30 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:ores/dark_pearl"
-          }
-        },
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:gems/dark_pearl"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
-        "energy": 6000,
-        "input": {
-          "tag": "forge:ores/dark_pearl"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:gems/dark_pearl"
-          },
-          "count": 2
-        },
-        "secondaries": []
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ores/dark_pearl"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:gems/dark_pearl"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "forge:ores/dark_pearl"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:gems/dark_pearl"
+    },
+    "count": 2
+  },
+  "secondaries": []
 }

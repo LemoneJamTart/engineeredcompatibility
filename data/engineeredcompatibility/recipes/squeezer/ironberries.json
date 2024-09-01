@@ -1,24 +1,17 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "homespun"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:squeezer",
-        "energy": 6400,
-        "fluid": {
-          "amount": 125,
-          "fluid": "homespun:ironberry_juice"
-        },
-        "input": {
-          "item": "homespun:ironberries"
-        }
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "homespun"
     }
-  ]
+  ],
+  "type": "immersiveengineering:squeezer",
+  "energy": 6400,
+  "fluid": {
+    "Amount": 125,
+    "FluidName": "homespun:ironberry_juice"
+  },
+  "input": {
+    "item": "homespun:ironberries"
+  }
 }

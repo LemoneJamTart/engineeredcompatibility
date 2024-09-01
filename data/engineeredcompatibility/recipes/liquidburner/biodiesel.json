@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "liquidburner"
+    }
+  ],
+  "type": "liquidburner:liquidburning",
+  "FluidName": "immersiveengineering:biodiesel",
+  "burntime": "11160",
+  "superheattime" : "0"
+}

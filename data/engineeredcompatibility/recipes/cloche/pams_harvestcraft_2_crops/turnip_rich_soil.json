@@ -1,40 +1,33 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "pamhc2crops"
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "farmersdelight"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "pamhc2crops:turnipseeditem"
-        },
-        "render": {
-          "type": "crop",
-          "block": "pamhc2crops:pamturnipcrop"
-        },
-        "results": [
-          {
-            "count": 2,
-            "item": "pamhc2crops:turnipitem"
-          },
-          {
-            "item": "pamhc2crops:turnipseeditem"
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 530
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "pamhc2crops"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
     }
-  ]
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "pamhc2crops:turnipseeditem"
+  },
+  "render": {
+    "type": "crop",
+    "block": "pamhc2crops:pamturnipcrop"
+  },
+  "results": [
+    {
+      "count": 2,
+      "item": "pamhc2crops:turnipitem"
+    },
+    {
+      "item": "pamhc2crops:turnipseeditem"
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 530
 }

@@ -1,46 +1,37 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "aether"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "aether:skyroot_log"
-          },
-          {
-            "item": "aether:skyroot_wood"
-          }
-        ],
-        "result": {
-          "count": 6,
-          "item": "aether:skyroot_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": true
-          },
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ],
-        "stripped": {
-          "item": "aether:stripped_skyroot_log"
-        }
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "aether"
+    }
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": [
+    {
+      "item": "aether:skyroot_log"
+    },
+    {
+      "item": "aether:golden_oak_log"
+    }
+  ],
+  "result": {
+    "basePredicate": {
+      "item": "aether:skyroot_planks"
+    },
+    "count": 6
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "forge:dusts/wood"
+    }
+  ],
+  "stripped": {
+    "item": "aether:stripped_skyroot_log"
+  },
+  "strippingSecondaries": [
+    {
+      "tag": "forge:dusts/wood"
     }
   ]
 }

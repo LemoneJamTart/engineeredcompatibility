@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:sandstone/orange"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:sand/orange"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
+  "energy": 3200,
+  "input": {
+    "tag": "forge:sandstone/orange"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:sand/orange"
+    },
+    "count": 2
+  },
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "conditions": [],
+      "output": {
+        "tag": "forge:dusts/saltpeter"
+      }
+    }
+  ]
+}

@@ -1,37 +1,30 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:ingots/hellforged"
-          }
-        },
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:dusts/hellforged"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:arc_furnace",
-        "additives": [],
-        "energy": 51200,
-        "input": {
-          "tag": "forge:dusts/hellforged"
-        },
-        "results": [
-          {
-            "tag": "forge:ingots/hellforged"
-          }
-        ],
-        "time": 100
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/hellforged"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:dusts/hellforged"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [],
+  "energy": 51200,
+  "input": {
+    "tag": "forge:dusts/hellforged"
+  },
+  "results": [
+    {
+      "tag": "forge:ingots/hellforged"
+    }
+  ],
+  "time": 100
 }

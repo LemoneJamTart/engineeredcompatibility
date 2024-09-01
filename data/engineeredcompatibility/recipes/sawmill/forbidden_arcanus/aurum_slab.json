@@ -1,32 +1,25 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "forbidden_arcanus"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
-        "energy": 800,
-        "input": {
-          "item": "forbidden_arcanus:aurum_planks"
-        },
-        "result": {
-          "count": 2,
-          "item": "forbidden_arcanus:aurum_slab"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "forbidden_arcanus"
     }
-  ]
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 800,
+  "input": {
+    "item": "forbidden_arcanus:aurum_planks"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "forbidden_arcanus:aurum_slab"
+    },
+    "count": 2
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "forge:dusts/wood"
+    }
+  ],
+  "strippingSecondaries": []
 }

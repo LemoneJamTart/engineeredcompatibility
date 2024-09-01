@@ -1,32 +1,25 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "twilightforest"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
-        "energy": 800,
-        "input": {
-          "item": "twilightforest:mangrove_planks"
-        },
-        "result": {
-          "count": 2,
-          "item": "twilightforest:mangrove_slab"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
     }
-  ]
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 800,
+  "input": {
+    "item": "twilightforest:mangrove_planks"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "twilightforest:mangrove_slab"
+    },
+    "count": 2
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "forge:dusts/wood"
+    }
+  ],
+  "strippingSecondaries": []
 }

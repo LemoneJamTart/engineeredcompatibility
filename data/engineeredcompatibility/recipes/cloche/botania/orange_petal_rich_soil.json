@@ -1,36 +1,29 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "farmersdelight"
-        },
-        {
-          "type": "forge:mod_loaded",
-          "modid": "botania"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "botania:orange_petal"
-        },
-        "render": {
-          "type": "generic",
-          "block": "botania:orange_mystical_flower"
-        },
-        "results": [
-          {
-            "item": "botania:orange_petal"
-          }
-        ],
-        "soil":{
-          "item":"farmersdelight:rich_soil"
-        },
-        "time":320
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
     }
-  ]
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "botania:orange_petal"
+  },
+  "render": {
+    "type": "generic",
+    "block": "botania:orange_mystical_flower"
+  },
+  "results": [
+    {
+      "item": "botania:orange_petal"
+    }
+  ],
+  "soil":{
+    "item":"farmersdelight:rich_soil"
+  },
+  "time":320
 }

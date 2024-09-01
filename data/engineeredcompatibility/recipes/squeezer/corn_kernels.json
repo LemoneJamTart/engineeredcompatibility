@@ -1,34 +1,30 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value":{
-              "type": "forge:mod_loaded",
-              "modid": "corn_delight"
-          }
-        },
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:seeds/corn"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:squeezer",
-        "energy": 6400,
-        "fluid": {
-          "amount": 60,
-          "fluid": "immersiveengineering:plantoil"
-        },
-        "input": {
-          "tag": "forge:seeds/corn"
-        }
+      "type": "neoforge:not",
+      "value":{
+          "type": "neoforge:mod_loaded",
+          "modid": "corn_delight"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:seeds/corn"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:squeezer",
+  "energy": 6400,
+  "fluid": {
+    "Amount": 60,
+    "FluidName": "immersiveengineering:plantoil"
+  },
+  "input": {
+    "basePredicate": {
+      "tag": "forge:seeds/corn"
+    },
+    "count": 1
+  }
 }

@@ -1,37 +1,27 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "naturesaura"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:sawmill",
-        "energy": 1600,
-        "input": [
-          {
-            "item": "naturesaura:ancient_log"
-          },
-          {
-            "item": "naturesaura:ancient_bark"
-          }
-        ],
-        "result": {
-          "count": 3,
-          "item": "naturesaura:ancient_planks"
-        },
-        "secondaries": [
-          {
-            "output": {
-              "tag": "forge:dusts/wood"
-            },
-            "stripping": false
-          }
-        ]
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "naturesaura"
     }
-  ]
+  ],
+  "type": "immersiveengineering:sawmill",
+  "energy": 1600,
+  "input": [
+    {
+      "item": "naturesaura:ancient_log"
+    }
+  ],
+  "result": {
+    "basePredicate": {
+      "item": "naturesaura:ancient_planks"
+    },
+    "count": 3
+  },
+  "secondaryOutputs": [
+    {
+      "tag": "forge:dusts/wood"
+    }
+  ],
+  "strippingSecondaries": []
 }

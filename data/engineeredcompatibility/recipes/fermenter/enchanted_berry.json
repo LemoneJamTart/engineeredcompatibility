@@ -1,24 +1,17 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "aether"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:fermenter",
-        "energy": 6400,
-        "fluid": {
-          "amount": 90,
-          "fluid": "immersiveengineering:ethanol"
-        },
-        "input": {
-          "item": "aether:enchanted_berry"
-        }
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "aether"
     }
-  ]
+  ],
+  "type": "immersiveengineering:fermenter",
+  "energy": 6400,
+  "fluid": {
+    "Amount": 90,
+    "FluidName": "immersiveengineering:ethanol"
+  },
+  "input": {
+    "item": "aether:enchanted_berry"
+  }
 }

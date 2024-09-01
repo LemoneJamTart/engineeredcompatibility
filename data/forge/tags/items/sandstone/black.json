@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "biomesoplenty:black_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:cut_black_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:chisled_black_sandstone",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:smooth_black_sandstone",
+      "required": false
+    }
+  ]
+}

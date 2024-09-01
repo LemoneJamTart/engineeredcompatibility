@@ -1,43 +1,37 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:sandstone/soulless"
-          }
-        },
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:sand/soulless"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:crusher",
-        "energy": 3200,
-        "input": {
-          "tag": "forge:sandstone/soulless"
-        },
-        "result": {
-          "base_ingredient": {
-            "tag": "forge:sand/soulless"
-          },
-          "count": 2
-        },
-        "secondaries": [
-          {
-            "chance": 0.875,
-            "output": {
-              "tag": "forge:dusts/saltpeter"
-            }
-          }
-        ]
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:sandstone/soulless"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:sand/soulless"
+      }
+    }
+  ],
+  "type": "immersiveengineering:crusher",
+  "energy": 3200,
+  "input": {
+    "tag": "forge:sandstone/soulless"
+  },
+  "result": {
+    "basePredicate": {
+      "tag": "forge:sand/soulless"
+    },
+    "count": 2
+  },
+  "secondaries": [
+    {
+      "chance": 0.875,
+      "conditions": [],
+      "output": {
+        "tag": "forge:dusts/saltpeter"
       }
     }
   ]

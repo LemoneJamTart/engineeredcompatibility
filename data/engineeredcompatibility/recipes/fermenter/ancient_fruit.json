@@ -1,24 +1,17 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "quark"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:fermenter",
-        "energy": 6400,
-        "fluid": {
-          "amount": 160,
-          "fluid": "immersiveengineering:ethanol"
-        },
-        "input": {
-          "item": "quark:ancient_fruit"
-        }
-      } 
+      "type": "neoforge:mod_loaded",
+      "modid": "quark"
     }
-  ]
+  ],
+  "type": "immersiveengineering:fermenter",
+  "energy": 6400,
+  "fluid": {
+    "Amount": 160,
+    "FluidName": "immersiveengineering:ethanol"
+  },
+  "input": {
+    "item": "quark:ancient_fruit"
+  }
 }

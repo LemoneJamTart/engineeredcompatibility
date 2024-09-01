@@ -1,38 +1,39 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:raw_materials/veridium"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:arc_furnace",
-        "additives": [],
-        "energy": 25600,
-        "input": {
-          "tag": "forge:raw_materials/veridium"
-        },
-        "results": [
-          {
-            "tag": "forge:ingots/veridium"
-          }
-        ],
-        "secondaries": [
-          {
-            "chance": 0.5,
-            "output": {
-              "tag": "forge:ingots/veridium"
-            }
-          }
-        ],
-        "time": 100
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:raw_materials/veridium"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/veridium"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [],
+  "energy": 25600,
+  "input": {
+    "tag": "forge:raw_materials/veridium"
+  },
+  "results": [
+    {
+      "tag": "forge:ingots/veridium"
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "conditions": [],
+      "output": {
+        "tag": "forge:ingots/veridium"
+      }
+    }
+  ],
+  "time": 100
 }

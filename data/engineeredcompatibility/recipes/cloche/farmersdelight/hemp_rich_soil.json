@@ -1,37 +1,30 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:mod_loaded",
-          "modid": "farmersdelight"
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:cloche",
-        "input": {
-          "item": "immersiveengineering:seed"
-        },
-        "render": {
-          "type": "hemp",
-          "block": "immersiveengineering:hemp"
-        },
-        "results": [
-          {
-            "item": "immersiveengineering:hemp_fiber",
-            "count": 1
-          },
-          {
-            "item": "immersiveengineering:seed",
-            "count": 2
-          }
-        ],
-        "soil": {
-          "item": "farmersdelight:rich_soil"
-        },
-        "time": 530
-      }
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
     }
-  ]
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "immersiveengineering:seed"
+  },
+  "render": {
+    "type": "hemp",
+    "block": "immersiveengineering:hemp"
+  },
+  "results": [
+    {
+      "item": "immersiveengineering:hemp_fiber",
+      "count": 1
+    },
+    {
+      "item": "immersiveengineering:seed",
+      "count": 2
+    }
+  ],
+  "soil": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "time": 530
 }

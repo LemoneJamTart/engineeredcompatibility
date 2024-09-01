@@ -1,38 +1,39 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "neoforge:conditions": [
     {
-      "conditions": [
-        {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:raw_materials/nagrilite"
-          }
-        }
-      ],
-      "recipe": {
-        "type": "immersiveengineering:arc_furnace",
-        "additives": [],
-        "energy": 25600,
-        "input": {
-          "tag": "forge:raw_materials/nagrilite"
-        },
-        "results": [
-          {
-            "tag": "forge:ingots/nagrilite"
-          }
-        ],
-        "secondaries": [
-          {
-            "chance": 0.5,
-            "output": {
-              "tag": "forge:ingots/nagrilite"
-            }
-          }
-        ],
-        "time": 100
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:raw_materials/nagrilite"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "forge:ingots/nagrilite"
       }
     }
-  ]
+  ],
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [],
+  "energy": 25600,
+  "input": {
+    "tag": "forge:raw_materials/nagrilite"
+  },
+  "results": [
+    {
+      "tag": "forge:ingots/nagrilite"
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "conditions": [],
+      "output": {
+        "tag": "forge:ingots/nagrilite"
+      }
+    }
+  ],
+  "time": 100
 }
