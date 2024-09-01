@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "neapolitan"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "neapolitan:banana_frond"
+        },
+        "render": {
+          "type": "generic",
+          "block": "neapolitan:small_banana_frond"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "neapolitan:banana"
+          },
+		  {
+            "item": "neapolitan:banana_frond"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

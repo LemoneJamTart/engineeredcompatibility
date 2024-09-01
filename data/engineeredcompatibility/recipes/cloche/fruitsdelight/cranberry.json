@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "fruitsdelight"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "fruitsdelight:cranberry"
+        },
+        "render": {
+          "type": "bush",
+          "block": "fruitsdelight:cranberry_bush"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "fruitsdelight:cranberry"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

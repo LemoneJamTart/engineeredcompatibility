@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "fruitsdelight"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "fruitsdelight:lemon_seeds"
+        },
+        "render": {
+          "type": "generic",
+          "block": "fruitsdelight:lemon_tree"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "fruitsdelight:lemon"
+          },
+          {
+            "item": "fruitsdelight:lemon_seeds"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "neapolitan"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "neapolitan:adzuki_beans"
+        },
+        "render": {
+          "type": "crop",
+          "block": "neapolitan:adzuki_sprouts"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "neapolitan:adzuki_beans"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

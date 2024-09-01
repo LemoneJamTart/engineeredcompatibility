@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "fruitsdelight"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "fruitsdelight:hamimelon_seeds"
+        },
+        "render": {
+          "type": "stem",
+          "block": "fruitsdelight:hamimelon_stem"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "fruitsdelight:hamimelon"
+          },
+          {
+            "item": "fruitsdelight:hamimelon_seeds"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

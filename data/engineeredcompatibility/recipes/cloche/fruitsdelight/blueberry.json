@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "fruitsdelight"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "fruitsdelight:blueberry"
+        },
+        "render": {
+          "type": "generic",
+          "block": "fruitsdelight:blueberry_bush"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "fruitsdelight:blueberry"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}
