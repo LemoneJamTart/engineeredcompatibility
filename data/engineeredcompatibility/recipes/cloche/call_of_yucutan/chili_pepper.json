@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "call_of_yucutan"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "call_of_yucutan:chili_pepper_seeds"
+        },
+        "render": {
+          "type": "crop",
+          "block": "call_of_yucutan:chili_pepper_seeds"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "call_of_yucutan:chili_pepper"
+          },
+		  {
+            "item": "call_of_yucutan:chili_pepper_seeds"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

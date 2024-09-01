@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "muffins_thaidelight"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "muffins_thaidelight:pepper_seeds"
+        },
+        "render": {
+          "type": "crop",
+          "block": "muffins_thaidelight:pepper"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "muffins_thaidelight:pepper"
+          },
+		  {
+            "item": "muffins_thaidelight:pepper_seeds"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

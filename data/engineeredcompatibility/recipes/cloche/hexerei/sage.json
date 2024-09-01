@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "hexerei"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "hexerei:sage_seed"
+        },
+        "render": {
+          "type": "crop",
+          "block": "hexerei:sage_crop"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "hexerei:sage"
+          },
+		  {
+            "item": "hexerei:sage_seed"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

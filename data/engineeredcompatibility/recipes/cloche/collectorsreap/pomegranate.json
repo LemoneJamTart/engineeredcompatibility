@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "collectorsreap"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "collectorsreap:pomegranate_seeds"
+        },
+        "render": {
+          "type": "generic",
+          "block": "collectorsreap:pomegranate_bush"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "collectorsreap:pomegranate"
+          },
+		  {
+            "item": "collectorsreap:pomegranate_seeds"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

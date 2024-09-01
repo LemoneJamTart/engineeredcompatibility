@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "aether"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "aether:berry_bush_stem"
+        },
+        "render": {
+          "type": "generic",
+          "block": "aether:berry_bush"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "aether:blue_berry"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}
