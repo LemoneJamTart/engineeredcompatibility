@@ -1,0 +1,35 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "nethervinery"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "nethervinery:warped_grape_seeds"
+        },
+        "render": {
+          "type": "bush",
+          "block": "nethervinery:warped_grape_bush"
+        },
+        "results": [
+          {
+            "item": "nethervinery:warped_grape"
+          },
+		  {
+            "item": "nethervinery:warped_grape_seeds"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:warped_nylium"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

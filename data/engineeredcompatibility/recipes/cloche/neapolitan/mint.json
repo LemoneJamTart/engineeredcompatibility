@@ -1,0 +1,36 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "neapolitan"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "neapolitan:mint_sprout"
+        },
+        "render": {
+          "type": "crop",
+          "block": "neapolitan:mint"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "neapolitan:mint_leaves"
+          },
+		  {
+            "item": "neapolitan:mint_sprout"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "neapolitan"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "neapolitan:strawberry_pips"
+        },
+        "render": {
+          "type": "bush",
+          "block": "neapolitan:strawberry_bush"
+        },
+        "results": [
+          {
+            "item": "neapolitan:strawberries"
+          },
+		  {
+            "item": "neapolitan:white_strawberries"
+          },
+		  {
+            "item": "neapolitan:strawberry_pips"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "fruitsdelight"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "fruitsdelight:pineapple_sapling"
+        },
+        "render": {
+          "type": "crop",
+          "block": "fruitsdelight:pineapple"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "fruitsdelight:pineapple"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:sand"
+        },
+        "time": 800
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "neapolitan"
+        }
+      ],
+      "recipe": {
+        "type": "immersiveengineering:cloche",
+        "input": {
+          "item": "neapolitan:vanilla_pods"
+        },
+        "render": {
+          "type": "generic",
+          "block": "neapolitan:vanilla_vine_plant"
+        },
+        "results": [
+          {
+            "count": 2,
+            "item": "neapolitan:vanilla_pods"
+          }
+        ],
+        "soil": {
+          "item": "minecraft:dirt"
+        },
+        "time": 800
+      }
+    }
+  ]
+}
